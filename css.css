@@ -2,7 +2,10 @@ body
 {
     background-color: #1e1e1e;
     color: white;
+    font-family: monospace;
+    font-size: 20px;
 }
+
 .T
 {
 	color : red;
@@ -16,4 +19,9 @@ table
 td
 {
     border:1px solid rgb(0, 0, 0);
+}
+
+.Bienvenue
+{
+    color: azure;
 }
