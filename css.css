@@ -3,7 +3,7 @@ body
     background-color: #1e1e1e;
     color: white;
     font-family: monospace;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .T
@@ -16,12 +16,37 @@ table
     border-collapse:collapse;
 }
 
-td
-{
-    border:1px solid rgb(0, 0, 0);
-}
-
 .Bienvenue
 {
     color: azure;
+}
+
+.textPresentation
+{
+    color: rgb(238, 83, 83);
+}
+
+.ZapoomC
+{
+    color: blueviolet;
+}
+
+.ZapoomS
+{
+    color: blueviolet;
+}
+
+.ZapoomD
+{
+    color: blueviolet;
+}
+
+.ZapoomMC
+{
+    color: blueviolet;
+}
+
+.credits
+{
+    color: rgb(152, 152, 153);
 }
