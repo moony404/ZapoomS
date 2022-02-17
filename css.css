@@ -11,11 +11,6 @@ body
 	color : red;
 }
 
-table
-{
-    border-collapse:collapse;
-}
-
 .Bienvenue
 {
     color: azure;
@@ -49,4 +44,19 @@ table
 .credits
 {
     color: rgb(152, 152, 153);
+}
+
+.orange
+{
+    color: orange;
+}
+
+.bleu
+{
+    color: rgb(157, 157, 255);
+}
+
+.rouge
+{
+    color: rgba(255, 47, 47, 100);
 }
