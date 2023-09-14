@@ -25,26 +25,6 @@ body
     color: rgb(238, 83, 83);
 }
 
-.ZapoomC
-{
-    color: rgb(202, 145, 255);
-}
-
-.ZapoomS
-{
-    color: rgb(202, 145, 255)t;
-}
-
-.ZapoomD
-{
-    color: rgb(202, 145, 255)t;
-}
-
-.ZapoomMC
-{
-    color: rgb(202, 145, 255);
-}
-
 .credits
 {
     color: rgb(152, 152, 153);
@@ -63,4 +43,8 @@ body
 .rouge
 {
     color: rgba(255, 47, 47, 100);
+}
+
+.blé {
+    color: wheat;
 }
