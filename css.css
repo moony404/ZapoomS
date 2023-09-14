@@ -10,19 +10,9 @@ body
     font-size: 25px;
 }
 
-.T
-{
-	color : red;
-}
-
 .Bienvenue
 {
     color: azure;
-}
-
-.textPresentation
-{
-    color: rgb(238, 83, 83);
 }
 
 .credits
@@ -35,16 +25,20 @@ body
     color: orange;
 }
 
-.bleu
+.blue
 {
     color: rgb(157, 157, 255);
 }
 
-.rouge
+.red
 {
     color: rgba(255, 47, 47, 100);
 }
 
 .blé {
+    color: wheat;
+}
+
+p {
     color: wheat;
 }
