@@ -45,20 +45,21 @@ p {
 
 button {
   padding: 10px 20px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   border-radius: 8px;
   font-size: 17px;
-  font-weight: 500;
-  color: #ffffff80;
+  font-weight: 800;
+  color: wheat;
   text-shadow: none;
   background: transparent;
   box-shadow: transparent;
   border: 1px solid #ffffff80;
   transition: 0.5s ease;
   user-select: none;
+  cursor: pointer;
 }
 
-#dwnld-btn:hover,:focus {
+#dwnld-btn:hover {
   color: #ffffff;
   background: #008cff;
   border: 1px solid #008cff;
