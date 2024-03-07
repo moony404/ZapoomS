@@ -4,8 +4,8 @@
 
 body
 {
-    background-color: #1e1e1e;
-    color: white;
+    background-color: #f9f9f9;
+    color: rgb(71, 255, 178);
     font-family: monospace;
     font-size: 25px;
 }
@@ -36,11 +36,11 @@ body
 }
 
 .wheat {
-    color: wheat;
+    color: rgb(143, 93, 0);
 }
 
 p {
-    color: wheat;
+    color: rgb(138, 90, 0);
 }
 
 button {
@@ -70,4 +70,8 @@ button {
               0 0 20px #008cff,
               0 0 50px #008cff,
               0 0 100px #008cff;
+}
+
+a {
+    text-decoration: none;
 }
