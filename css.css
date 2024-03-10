@@ -48,7 +48,7 @@ p {
     color: rgb(138, 90, 0);
 }
 
-button {
+.button {
   padding: 10px 20px;
   /* text-transform: uppercase; */
   border-radius: 8px;
