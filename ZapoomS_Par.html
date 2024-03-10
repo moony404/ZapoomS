@@ -6,8 +6,7 @@
         <title>ZapoomS_Par</title>
     </head>
     <body>
-    <script type="text/javascript" src="js.js"></script>
-    <h1 class="T"><a class="anone" href="index.html">ZapoomS/Parametres</a></h1>
+    <h1 class="T"><a class="anone" href="index.html">ZapoomS/Paramètres</a></h1>
 	<nav>
         <lu>
             <li><a class="anone" href="ZapoomS_Wiki.html" title="Les choses a savoir" ><img src="img/book-open.svg" alt="Wiki logo"> - Wiki</a></li>
@@ -16,9 +15,28 @@
             <li><a class="anone" href="ZapoomS_Credits.html" title="Les personnes qui travaillent dessus"><img src="img/users.svg" alt="Credits logo"> - Credits</a></li>
         </lu>
 	</nav>
+    <script>
+    function theme() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+        // 1 = light
+        // 0 = dark
+        if (theme == 1) {
+            element.classList.toggle("body");
+        } else if (theme == 0) {
+            element.classList.toggle("dark-mode");
+        }
+    }
+    function counter() {
+        var counter;
+        counter++;
+        console.log(counter);
+    }
+    </script>
+    <noscript>Désolé, votre navigateur ne supporte pas JavaScript!</noscript>
     <p>Voici les paramètres que tu peux modifier :<br></p>
-    <button onclick="myFunction">Theme</button>
-    <a onclick="myFunction">Theme link</a>
+    <button onclick="theme()">Theme</button>
+    <button onclick="counter()">Counter</button>
     <p class="red">0 pour le moment (sorry je cherche comment on fait, si tu veux m'aider viens sur discord et en plus ça me fera plaisir :)) !</p>
     </body>
 </html>
