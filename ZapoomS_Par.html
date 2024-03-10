@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="css.css"/>
+        <link rel="stylesheet" href="light-theme.css"/>
         <link rel="shortcut icon" href="img/icon.ico"/>
         <title>ZapoomS_Par</title>
     </head>
@@ -17,17 +17,28 @@
         </lu>
 	</nav>
     <script>
-    function theme() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-        // 1 = light
-        // 0 = dark
-        console.log("button clicked");
-    }
+    // Select the button
+    console.log("test");
+    const btn = document.querySelector(".btn-toggle");
+    // Select the stylesheet <link>
+    const theme = document.querySelector("#theme-link");
+    
+    // Listen for a click on the button
+    btn.addEventListener("click", function() {
+        // If the current URL contains "ligh-theme.css"
+        if (theme.getAttribute("href") == "light-theme.css") {
+            // ... then switch it to "dark-theme.css"
+            theme.href = "dark-theme.css";
+        // Otherwise...
+        } else {
+            // ... switch it to "light-theme.css"
+            theme.href = "light-theme.css";
+        }
+    });
     </script>
     <noscript>Désolé, votre navigateur ne supporte pas JavaScript!</noscript>
     <p>Voici les paramètres que tu peux modifier :<br></p>
-    <button class="btn-toggle" onclick="theme()">Theme</button>
+    <button class="btn-toggle" onclick="">Theme</button>
     <p class="red">0 pour le moment (sorry je cherche comment on fait, si tu veux m'aider viens sur discord et en plus ça me fera plaisir :)) !</p>
     </body>
 </html>
