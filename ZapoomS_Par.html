@@ -20,11 +20,13 @@
     // Select the button
     console.log("test");
     const btn = document.querySelector(".btn-toggle");
+    console.log("test2");
     // Select the stylesheet <link>
     const theme = document.querySelector("#theme-link");
     
     // Listen for a click on the button
     btn.addEventListener("click", function() {
+        console.log("test3");
         // If the current URL contains "ligh-theme.css"
         if (theme.getAttribute("href") == "light-theme.css") {
             // ... then switch it to "dark-theme.css"
@@ -38,7 +40,7 @@
     </script>
     <noscript>Désolé, votre navigateur ne supporte pas JavaScript!</noscript>
     <p>Voici les paramètres que tu peux modifier :<br></p>
-    <button class="btn-toggle" onclick="">Theme</button>
+    <button class="btn-toggle">Theme</button>
     <p class="red">0 pour le moment (sorry je cherche comment on fait, si tu veux m'aider viens sur discord et en plus ça me fera plaisir :)) !</p>
     </body>
 </html>
