@@ -8,6 +8,7 @@
   --svg_sky:#c6d3ff;
   --svg_sun:#fff676;
   --svg_beam_opacity:0;
+  --red: red;
 }
 
 :root[data-theme="dark"] {
@@ -29,14 +30,9 @@
 body
 {
     background-color: #f9f9f9;
-    color: rgb(71, 255, 178);
+    color: var(--font_color);
     font-family: monospace;
     font-size: 25px;
-}
-
-.dark-mode {
-    background-color: #1e1e1e;
-    color: rgb(71, 255, 178);
 }
 
 .Bienvenue
