@@ -10,6 +10,11 @@ body
     font-size: 25px;
 }
 
+.dark-mode {
+    background-color: #1e1e1e;
+    color: rgb(71, 255, 178);
+}
+
 .Bienvenue
 {
     color: azure;
