@@ -1,26 +1,13 @@
 :root {
   --background: #eee;
-  --background_solid: #fff;
   --font_color: #292929;
-  --title_color: #000;
-  --btn_background: #0038FF;
-  --btn_color: #fff;
-  --svg_sky:#c6d3ff;
-  --svg_sun:#fff676;
-  --svg_beam_opacity:0;
   --red: red;
+  --azure: azure;
 }
 
 :root[data-theme="dark"] {
   --background: #1e1e1e;
-  --background_solid: #111b33;
   --font_color: rgb(71,255,178);
-  --title_color: #fff;
-  --btn_background: #c6d3ff;
-  --btn_color: #000;
-  --svg_sky:#000;
-  --svg_sun:#fff;
-  --svg_beam_opacity:0.1;
 }
 
 * {
@@ -29,7 +16,7 @@
 
 body
 {
-    background-color: #f9f9f9;
+    background-color: var(--background);
     color: var(--font_color);
     font-family: monospace;
     font-size: 25px;
@@ -37,7 +24,7 @@ body
 
 .Bienvenue
 {
-    color: azure;
+    color: var(--azure);
 }
 
 .credits
