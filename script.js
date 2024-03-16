@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-document.getElementById('nightMode').onclick = () => {
+document.getElementById('buttontheme').onclick = () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
     var newTheme = currentTheme === "dark" ? "light" : "dark";
     document.documentElement.setAttribute("data-theme", newTheme);
