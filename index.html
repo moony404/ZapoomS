@@ -17,6 +17,17 @@
             <li><a class="anone" href="ZapoomS_Credits.html" title="Les personnes qui travaillent dessus"><img src="img/users.svg" alt="Credits logo"> - Credits</a></li>
         </lu>
 	</nav>
+    <script>
+    () => {
+        // fetch night mode state in user localStorage
+        let theme = localStorage.getItem("theme") || false;
+        // set up theme
+        if (theme) {
+            document.documentElement.setAttribute("data-theme", theme);
+        }
+    }
+    document.documentElement.setAttribute("data-theme", theme)
+    </script>
     <p>Bienvenue sur le site de Zapoom !<br> Il faut que vous commenciez par lire le <a href="ZapoomS_Wiki.html" title="Les choses a savoir" class="orange">Wiki</a>.<br>Le discord de Zapoom : <a href="https://www.discord.com/invite/zMP9aBZJ5u" title="Le discord de Zapoom" class="orange">discord</a>.</p>
     <p><h2 class="orange">Les jeux vidéos chez Zapoom :</h2></p>
     <p>La page sur ZapoomC est là : <a href="article/ZapoomC.html" title="Le lien vers la page de téléchargement de ZapoomC" class="orange">ZapoomC</a></p>
