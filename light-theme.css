@@ -52,7 +52,7 @@ body
 }
 
 p {
-    color: rgb(138, 90, 0);
+    color: var(--font_color);
 }
 
 .button {
