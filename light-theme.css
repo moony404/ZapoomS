@@ -8,6 +8,7 @@
 :root[data-theme="dark"] {
   --background: #1e1e1e;
   --font_color: rgb(71,255,178);
+--azure: rgb(20, 20, 20);
 }
 
 * {
