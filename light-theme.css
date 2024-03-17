@@ -93,7 +93,10 @@ p {
     background-color: var(--buttonbackground);
     border: none;
     border-radius: 9px;
+    cursor: pointer;
 }
+
+#but
 
 .buttonthemeimg {
     height: 28px;
