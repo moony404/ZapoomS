@@ -1,5 +1,6 @@
 :root {
     --background: white;
+    --buttonbackground: rgba(0, 0, 0, 0.329);
     --font_color: #292929;
     --red: red;
     --azure: azure;
@@ -7,6 +8,7 @@
 
 :root[data-theme="dark"] {
     --background: #1e1e1e;
+    --buttonbackground: rgba(187, 221, 255, 0.256);
     --font_color: rgb(71,255,178);
     --azure: rgb(20, 20, 20);
 }
@@ -83,6 +85,13 @@ p {
               0 0 20px #008cff,
               0 0 50px #008cff,
               0 0 100px #008cff;
+}
+
+#buttontheme {
+    height: 100px;
+    background-color: var(--buttonbackground);
+    border: none;
+    border-radius: 9px;
 }
 
 .anone {
