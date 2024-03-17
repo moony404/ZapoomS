@@ -1,7 +1,7 @@
 :root {
     --background: white;
     --buttonbackground: rgba(0, 0, 0, 0.329);
-    --buttonbackgroundhover: rgba(0, 0, 0, 0.329);
+    --buttonbackgroundhover: rgba(0, 0, 0, 0.5);
     --font_color: #292929;
     --red: red;
     --azure: azure;
@@ -10,7 +10,7 @@
 :root[data-theme="dark"] {
     --background: #1e1e1e;
     --buttonbackground: rgba(187, 221, 255, 0.256);
-    --buttonbackgroundhover: rgba(0, 0, 0, 0.329);
+    --buttonbackgroundhover: rgba(169, 169, 169, 0.5);
     --font_color: rgb(71,255,178);
     --azure: rgb(20, 20, 20);
 }
