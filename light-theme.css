@@ -88,10 +88,16 @@ p {
 }
 
 #buttontheme {
-    height: 100px;
+    margin-left: 5px;
+    margin-top: 3px;
     background-color: var(--buttonbackground);
     border: none;
     border-radius: 9px;
+}
+
+.buttonthemeimg {
+    height: 28px;
+    width: 26px;
 }
 
 .anone {
