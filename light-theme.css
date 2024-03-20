@@ -29,6 +29,13 @@ body
     font-size: 25px;
 }
 
+.zapoompages:hover {
+    color: red;
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: black;
+}
+
 .Bienvenue
 {
     color: var(--azure);
