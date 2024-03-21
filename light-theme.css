@@ -1,20 +1,22 @@
 :root {
     --background: white;
     --buttonbackground: rgba(0, 0, 0, 0.329);
-    --buttonbackgroundhover: rgba(0, 0, 0, 0.5);
+    --buttonbackgroundhover: rgba(0, 0, 0, 0.2);
     --font_color: #292929;
     --red: red;
     --azure: azure;
     --blue: blue;
+    --creditstext: rgb(152, 152, 153);
 }
 
 :root[data-theme="dark"] {
     --background: #1e1e1e;
     --buttonbackground: rgba(187, 221, 255, 0.256);
-    --buttonbackgroundhover: rgba(169, 169, 169, 0.5);
+    --buttonbackgroundhover: rgba(255, 255, 255, 0.2);
     --font_color: rgb(71,255,178);
     --azure: rgb(20, 20, 20);
     --blue: lightblue;
+    --creditstext: red;
 }
 
 * {
@@ -29,8 +31,8 @@ body
     font-size: 25px;
 }
 
-.zapoompages:hover {
-    color: red;
+a:hover  {
+    background-color: var(--buttonbackgroundhover);
     border-radius: 9px;
     border-width: 1px;
     border-color: black;
@@ -43,7 +45,7 @@ body
 
 .credits
 {
-    color: rgb(152, 152, 153);
+    color: var(--creditstext);
 }
 
 .orange
