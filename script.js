@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // fetch night mode state in user localStorage
+  //fetch night mode state in user localStorage
   let theme = localStorage.getItem("theme") || false;
-  // set up theme
+  //set up theme
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
   }
