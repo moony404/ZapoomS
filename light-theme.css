@@ -36,6 +36,7 @@ a:hover  {
     border-radius: 9px;
     border-width: 1px;
     border-color: black;
+    cursor: pointer;
 }
 
 .Bienvenue
