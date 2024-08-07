@@ -25,6 +25,7 @@
 
 body
 {
+    height: 200%;
     background-image: url(img/lightheme.jpg);
     background-color: var(--background);
     color: var(--font_color);
