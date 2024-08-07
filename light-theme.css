@@ -39,6 +39,10 @@ a:hover  {
     cursor: pointer;
 }
 
+nav {
+    /* padding-bottom: 1cm; */
+}
+
 .Bienvenue
 {
     color: var(--azure);
