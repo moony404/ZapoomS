@@ -23,20 +23,13 @@
     margin: 0px;
 }
 
-.test {
-    height: 100%;
-}
-
 body
 {
-    height: 200%;
     background-image: url(img/lightheme.jpg);
     background-color: var(--background);
     color: var(--font_color);
     font-family: monospace;
     font-size: 25px;
-    -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
     background-color: rgba(255,255,255,.3);
 }
 
