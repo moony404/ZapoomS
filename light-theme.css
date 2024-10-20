@@ -1,4 +1,5 @@
 :root {
+    /* light theme */
     --background: white;
     --buttonbackground: rgba(255, 255, 255, 0.329);
     --buttonbackgroundhover: rgba(0, 0, 0, 0.2);
@@ -6,16 +7,19 @@
     --red: red;
     --azure: azure;
     --blue: blue;
+    --orange: orange;
     --creditstext: rgb(152, 152, 153);
 }
 
 :root[data-theme="dark"] {
+    /* dark theme */
     --background: #1e1e1e;
     --buttonbackground: rgba(187, 221, 255, 0.256);
     --buttonbackgroundhover: rgba(255, 255, 255, 0.2);
     --font_color: rgb(71,255,178);
     --azure: rgb(20, 20, 20);
     --blue: lightblue;
+    --orange: white;
     --creditstext: red;
 }
 
@@ -29,9 +33,6 @@ body
     color: var(--font_color);
     font-family: monospace;
     font-size: 25px;
-    /* background-repeat: no-repeat; */
-    /* background-attachment: fixed; */
-    /* background-size: 100% 100%; */
 }
 
 a:hover  {
@@ -54,7 +55,7 @@ a:hover  {
 
 .orange
 {
-    color: orange;
+    color: var(--orange);
 }
 
 .blue
