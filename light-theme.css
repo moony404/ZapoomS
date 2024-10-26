@@ -34,7 +34,7 @@ body
     background-color: var(--background);
     color: var(--font_color);
     /* font-family: monospace; */
-    font-family: Amulya-Regular;
+    font-family: Amulya-Bold;
     font-size: 25px;
 }
 
