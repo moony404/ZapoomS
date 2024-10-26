@@ -1,4 +1,5 @@
-@import url('stardom.css');
+/* @import url('stardom.css'); */
+@import url('satoshi.css');
 
 :root {
     /* light theme */
@@ -34,7 +35,7 @@ body
     background-color: var(--background);
     color: var(--font_color);
     /* font-family: monospace; */
-    font-family: Stardom-Regular;
+    font-family: Satoshi-Black;
     font-size: 25px;
 }
 
@@ -209,9 +210,9 @@ p {
   left: 0;
   right: 0;
   width: 150px;
-  height: 60px;
+  height: 75px;
   z-index: 999;
-  font-size: 20px;
+  /* font-size: 20px; */
   color: white;
   text-align: center;
   cursor: pointer;
