@@ -1,5 +1,4 @@
-/* @import url('stardom.css'); */
-@import url('satoshi.css');
+@import url('fonts/Amulya_Complete/Amulya_Complete/Fonts/WEB/css/amulya.css');
 
 :root {
     /* light theme */
@@ -35,11 +34,11 @@ body
     background-color: var(--background);
     color: var(--font_color);
     /* font-family: monospace; */
-    font-family: Satoshi-Black;
+    font-family: Amulya-Regular;
     font-size: 25px;
 }
 
-a:hover  {
+a:hover {
     background-color: var(--buttonbackgroundhover);
     border-radius: 9px;
     border-width: 1px;
