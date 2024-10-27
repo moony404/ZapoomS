@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
-
 document.getElementById('buttontheme').onclick = () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
   var newTheme = currentTheme === "dark" ? "light" : "dark";
