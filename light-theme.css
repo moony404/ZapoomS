@@ -144,8 +144,9 @@ p {
 /* From Uiverse.io by jetakazono */ 
 .button {
   position: absolute;
-  top: 30%;
-  left: 45%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   /* left: 35em; */
   /* top: 16.5em; */
   background-color: transparent;
