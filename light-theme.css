@@ -211,11 +211,6 @@ p {
   animation-play-state: paused;
 }
 
-/* Ajoute la classe .animate pour démarrer l'animation */
-/* .button.animate .liquid > span { */
-  /* animation-play-state: running; Active l'animation */
-/* } */
-
 .button .liquid > span > span {
   animation: move 6s ease-in-out infinite;
   animation-delay: calc(0.2s * var(--i));
@@ -265,4 +260,23 @@ p {
 }
 .button .liquid span:nth-child(6) {
   left: 50px;
+}
+
+@keyframes move {
+  0%,
+  100% {
+    transform: translateX(0) translateY(0) scale(1);
+  }
+  20% {
+    transform: translateX(-8px) translateY(-4px) scale(1.1);
+  }
+  40% {
+    transform: translateX(8px) translateY(8px) scale(0.9);
+  }
+  60% {
+    transform: translateX(-8px) translateY(4px) scale(1.1);
+  }
+  80% {
+    transform: translateX(5px) translateY(-8px) scale(0.9);
+  }
 }
