@@ -3,8 +3,7 @@
 :root {
     /* light theme */
     --background: white;
-    --buttonbackground: rgba(255, 255, 255, 0.329);
-    --buttonbackgroundhover: rgba(0, 0, 0, 0.2);
+    --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
     --font_color: #292929;
     --red: red;
     --azure: azure;
@@ -16,8 +15,7 @@
 :root[data-theme="dark"] {
     /* dark theme */
     --background: #1e1e1e;
-    --buttonbackground: rgba(187, 221, 255, 0.256);
-    --buttonbackgroundhover: rgba(255, 255, 255, 0.2);
+    --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
     --font_color: rgb(71,255,178);
     --azure: rgb(20, 20, 20);
     --blue: rgb(4, 24, 155);
@@ -38,7 +36,7 @@ body
     font-size: 25px;
 }
 
-a:hover {
+.linkhover:hover {
     background-color: var(--buttonbackgroundhover);
     border-radius: 9px;
     border-width: 1px;
@@ -46,9 +44,9 @@ a:hover {
     cursor: pointer;
 }
 
-.Bienvenue
-{
-    color: var(--azure);
+.title {
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .credits
@@ -77,51 +75,6 @@ a:hover {
 
 p {
     color: var(--font_color);
-}
-
-.button {
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 17px;
-  font-weight: 800;
-  color: wheat;
-  text-shadow: none;
-  background: transparent;
-  box-shadow: transparent;
-  border: 1px solid #ffffff80;
-  transition: 0.5s ease;
-  user-select: none;
-  cursor: pointer;
-}
-
-#dwlnd-btn {
-    background-color: darkgreen;
-}
-
-#dwnld-btn:hover {
-  color: #ffffff;
-  background: #005e35;
-  box-shadow: 0 0 5px #008cff
-              0 0 20px #008cff,
-              0 0 50px #008cff,
-              0 0 100px #008cff;
-}
-
-#buttontheme {
-    margin-left: 5px;
-    margin-top: 3px;
-    background-color: var(--buttonbackground);
-    border-radius: 9px;
-    cursor: pointer;
-}
-
-#buttontheme:hover {
-    background-color: var(--buttonbackgroundhover);
-}
-
-.buttonthemeimg {
-    height: 28px;
-    width: 26px;
 }
 
 .anone {
@@ -190,6 +143,8 @@ p {
 /* bubble button */
 /* From Uiverse.io by jetakazono */ 
 .button {
+  left: 35em;
+  top: 16.5em;
   background-color: transparent;
   border: none;
   position: relative;
@@ -209,9 +164,9 @@ p {
   left: 0;
   right: 0;
   width: 150px;
-  height: 75px;
+  height: 60px;
   z-index: 999;
-  /* font-size: 20px; */
+  font-size: 20px;
   color: white;
   text-align: center;
   cursor: pointer;
@@ -255,6 +210,11 @@ p {
   animation-delay: calc(0.15s * var(--i));
   animation-play-state: paused;
 }
+
+/* Ajoute la classe .animate pour démarrer l'animation */
+/* .button.animate .liquid > span { */
+  /* animation-play-state: running; Active l'animation */
+/* } */
 
 .button .liquid > span > span {
   animation: move 6s ease-in-out infinite;
@@ -304,6 +264,130 @@ p {
   left: 40px;
 }
 .button .liquid span:nth-child(6) {
+  left: 50px;
+}
+
+
+/* second bubble */
+/* From Uiverse.io by jetakazono */ 
+.button2 {
+    cursor: pointer;
+    left: 75%;
+    top: -10em;
+  background-color: transparent;
+  border: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button2 svg {
+  width: 0;
+  height: 0;
+}
+
+.button2 p {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  right: 0;
+  width: 150px;
+  height: 75px;
+  z-index: 999;
+  /* font-size: 20px;
+   */color: white;
+  text-align: center;
+  cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  text-shadow: 0 0 10px rgb(34, 143, 147);
+  letter-spacing: 1px;
+}
+
+.button2 p:hover + .liquid2 span:not(.bg2) {
+  animation-play-state: running;
+}
+
+.button2 p:hover {
+  transform: scale(1.1);
+}
+
+.button2:active p {
+  transform: scale(1);
+}
+
+.button2 .liquid2 {
+  filter: url(#gooey);
+  width: 200px;
+  height: 200px;
+  margin-top: 160px;
+}
+
+.button2 .liquid2 > span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  animation: rotate 2.5s ease infinite;
+  animation-delay: calc(0.15s * var(--i));
+  animation-play-state: paused;
+}
+
+.button2 .liquid2 > span > span {
+  animation: move 6s ease-in-out infinite;
+  animation-delay: calc(0.2s * var(--i));
+  background: rgb(34, 64, 147);
+  width: 50px;
+  height: 30px;
+  display: block;
+  margin: auto;
+}
+
+.button2 .liquid2 span > span::before {
+  content: "";
+  position: absolute;
+  left: calc(50% - 20px);
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: linear-gradient(#2b7cc8, #23d2db);
+  border-radius: 50%;
+  box-shadow: 0 0 30px hsl(0, 0%, 69%);
+}
+
+.button2 .liquid2 span.bg2 {
+  animation: none;
+}
+.button2 .liquid2 span.bg2 > span::before {
+  width: 140px;
+  height: 50px;
+  left: calc(50% - 60px);
+  border-radius: 20px;
+}
+
+.button2 .liquid2 span:nth-child(2) {
+  left: -20px;
+}
+.button2 .liquid2 span:nth-child(1) {
+  left: -40px;
+}
+.button2 .liquid2 span:nth-child(3) {
+  left: -50px;
+}
+.button2 .liquid2 span:nth-child(4) {
+  left: 20px;
+}
+.button2 .liquid2 span:nth-child(7) {
+  left: 40px;
+}
+.button2 .liquid2 span:nth-child(6) {
   left: 50px;
 }
 
