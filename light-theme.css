@@ -144,13 +144,13 @@ p {
 /* From Uiverse.io by jetakazono */ 
 .button {
   position: absolute;
-  top: 10%;
+  top: 30%;
   left: 45%;
   /* left: 35em; */
   /* top: 16.5em; */
   background-color: transparent;
   border: none;
-  position: relative;
+  /* position: relative; */
   display: flex;
   align-items: center;
   justify-content: center;
