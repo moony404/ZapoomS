@@ -143,8 +143,11 @@ p {
 /* bubble button */
 /* From Uiverse.io by jetakazono */ 
 .button {
-  left: 35em;
-  top: 16.5em;
+  position: absolute;
+  top: 10%;
+  left: 45%;
+  /* left: 35em; */
+  /* top: 16.5em; */
   background-color: transparent;
   border: none;
   position: relative;
