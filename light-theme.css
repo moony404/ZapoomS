@@ -29,56 +29,56 @@
 
 body
 {
-    background-color: var(--background);
-    color: var(--font_color);
-    /* font-family: monospace; */
-    font-family: Amulya-Bold;
-    font-size: 25px;
+  background-color: var(--background);
+  color: var(--font_color);
+  /* font-family: monospace; */
+  font-family: Amulya-Bold;
+  font-size: 25px;
 }
 
 .linkhover:hover {
-    background-color: var(--buttonbackgroundhover);
-    border-radius: 9px;
-    border-width: 1px;
-    border-color: black;
-    cursor: pointer;
+  background-color: var(--buttonbackgroundhover);
+  border-radius: 9px;
+  border-width: 1px;
+  border-color: black;
+  cursor: pointer;
 }
 
 .title {
-    margin-top: 10px;
-    margin-left: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .credits
 {
-    color: var(--creditstext);
+  color: var(--creditstext);
 }
 
 .orange
 {
-    color: var(--orange);
+  color: var(--orange);
 }
 
 .blue
 {
-    color: var(--blue);
+  color: var(--blue);
 }
 
 .red
 {
-    color: rgba(255, 47, 47, 100);
+  color: rgba(255, 47, 47, 100);
 }
 
 .wheat {
-    color: rgb(143, 93, 0);
+  color: rgb(143, 93, 0);
 }
 
 p {
-    color: var(--font_color);
+  color: var(--font_color);
 }
 
 .anone {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* uiverse things bellow */
