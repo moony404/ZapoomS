@@ -27,6 +27,30 @@
   margin: 0px;
 }
 
+
+
+/* Pour les écrans de moins de 768px (tablettes) */
+/* For screens that are less than 768px (tablets) */
+@media (max-width: 480px) {
+  /* testos */
+  body {
+    font-size: 100px;
+    color: red;
+  }
+}
+
+
+
+/* Pour les écrans de moins de 480px (smartphones) */
+/* For screens that are less than 480px (smartphones) */
+@media (max-width: 768px) {
+  /* testos */
+}
+
+
+
+
+
 body
 {
   background-color: var(--background);
