@@ -44,11 +44,6 @@ body
   cursor: pointer;
 }
 
-.title {
-  margin-top: 10px;
-  margin-left: 10px;
-}
-
 .credits
 {
   color: var(--creditstext);
@@ -83,10 +78,6 @@ p {
 
 /* ################################################################################################### */
 /* part for the black bubble */
-canvas {
-  position: fixed; touch-action: none;
-}
-
 .b {
   height: 100px;
   width: 100px;
