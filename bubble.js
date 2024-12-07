@@ -229,27 +229,7 @@ init = function() {
   window.addEventListener('resize', resize);
   resize();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Rendre la bulle cliquable
+  // Rendre la bulle cliquable
   canvas.addEventListener('click', function (event) {
     const rect = canvas.getBoundingClientRect();
     const mouseX = event.clientX - rect.left; // Position X du clic par rapport au canvas
@@ -266,27 +246,10 @@ init = function() {
 
     // Vérifier si le clic est dans la bulle
     if (distance <= radius) {
-      window.location.href = "https://example.com"; // Rediriger uniquement si le clic est dans la bulle
+      window.location.href = "article/ZapoomC.html"; // Rediriger uniquement si le clic est dans la bulle
     }
   });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   let oldMousePoint = { x: 0, y: 0};
   let hover = false;
   let mouseMove = function(e) {
