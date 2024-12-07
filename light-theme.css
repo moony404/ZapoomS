@@ -24,7 +24,7 @@
 }
 
 * {
-    /* margin: 0px; */
+  margin: 0px;
 }
 
 body
@@ -34,6 +34,8 @@ body
   /* font-family: monospace; */
   font-family: Amulya-Bold;
   font-size: 25px;
+  /* height: 100%; */
+  /* width: 100%; */
 }
 
 .linkhover:hover {
@@ -43,6 +45,7 @@ body
   border-color: black;
   cursor: pointer;
 }
+
 
 .credits
 {
@@ -74,12 +77,4 @@ p {
 
 .anone {
   text-decoration: none;
-}
-
-/* ################################################################################################### */
-/* part for the black bubble */
-.b {
-  height: 100px;
-  width: 100px;
-  color: red;
 }
