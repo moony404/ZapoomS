@@ -51,7 +51,14 @@ body
   /* height: 100%; */
   /* width: 100%; */
   top: 45%;
-  left: 45%;
+  left: 40%;
+  background-color: black;
+  border-color: white;
+  border-radius: 9px;
+  padding-inline: 10%;
+  padding-top: 10%;
+  display: grid;
+  justify-content: center;
 }
 
 .credits

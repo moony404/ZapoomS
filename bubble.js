@@ -228,6 +228,64 @@ init = function() {
   }
   window.addEventListener('resize', resize);
   resize();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Rendre la bulle cliquable
+  canvas.addEventListener('click', function (event) {
+    const rect = canvas.getBoundingClientRect();
+    const mouseX = event.clientX - rect.left; // Position X du clic par rapport au canvas
+    const mouseY = event.clientY - rect.top;  // Position Y du clic par rapport au canvas
+
+    const centerX = blob.center.x; // Centre X de la bulle
+    const centerY = blob.center.y; // Centre Y de la bulle
+    const radius = blob.radius;    // Rayon de la bulle
+
+    // Calculer la distance entre le clic et le centre de la bulle
+    const distance = Math.sqrt(
+      Math.pow(mouseX - centerX, 2) + Math.pow(mouseY - centerY, 2)
+    );
+
+    // Vérifier si le clic est dans la bulle
+    if (distance <= radius) {
+      window.location.href = "https://example.com"; // Rediriger uniquement si le clic est dans la bulle
+    }
+  });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   let oldMousePoint = { x: 0, y: 0};
   let hover = false;
@@ -240,16 +298,18 @@ init = function() {
     
     blob.mousePos = { x: pos.x - e.clientX, y: pos.y - e.clientY };
     
-    if(dist < blob.radius && hover === false) {
+    if(dist < blob.radius && hover === false) { // if to know if the cursor IS on the bubble
       let vector = { x: e.clientX - pos.x, y: e.clientY - pos.y };
       angle = Math.atan2(vector.y, vector.x);
       hover = true;
+      canvas.style.cursor = "pointer"; // add to the pointer proprety to the cursor so it can be like a link
       // blob.color = '#77FF00';
-    } else if(dist > blob.radius && hover === true){ 
+    } else if(dist > blob.radius && hover === true){ // if to know if the cursor ISN'T on the bubble
       let vector = { x: e.clientX - pos.x, y: e.clientY - pos.y };
       angle = Math.atan2(vector.y, vector.x);
       hover = false;
       blob.color = null;
+      canvas.style.cursor = "default"; // add to the default proprety to the cursor so it can be the default cursor style
     }
     
     if(typeof angle == 'number') {
