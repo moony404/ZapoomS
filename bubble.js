@@ -223,8 +223,8 @@ init = function() {
   document.body.appendChild(canvas);
 
   let resize = function() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = window.innerWidth-20;
+    canvas.height = window.innerHeight-20;
   }
   window.addEventListener('resize', resize);
   resize();
@@ -286,3 +286,8 @@ init = function() {
 }
 
 init();
+
+let resize = function() {
+  canvas.width = 600; // Largeur du canvas
+  canvas.height = 4000; // Hauteur du canvas
+};
