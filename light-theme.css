@@ -27,12 +27,64 @@
   margin: 0px;
 }
 
+@media (min-width: 1024px) {
+  body {
+    background-color: var(--background);
+    color: var(--font_color);
+    /* font-family: monospace; */
+    font-family: Amulya-Bold;
+    font-size: 25px;
+    /* height: 100%; */
+    /* width: 100%; */
+  }
+
+  .linkhover:hover {
+    background-color: var(--buttonbackgroundhover);
+    border-radius: 9px;
+    border-width: 1px;
+    border-color: black;
+    cursor: pointer;
+  }
+
+  .credits
+  {
+    color: var(--creditstext);
+  }
+
+  .orange
+  {
+    color: var(--orange);
+  }
+
+  .blue
+  {
+    color: var(--blue);
+  }
+
+  .red
+  {
+    color: rgba(255, 47, 47, 100);
+  }
+
+  .wheat {
+    color: rgb(143, 93, 0);
+  }
+
+  p {
+    color: var(--font_color);
+  }
+
+  .anone {
+    text-decoration: none;
+  }
+} /* end of the laptops and pc media responsive design*/
 
 
 /* Pour les écrans de moins de 768px (tablettes) */
 /* For screens that are less than 768px (tablets) */
 @media (max-width: 480px) {
   /* testos */
+  /* test for tablets */
   body {
     font-size: 100px;
     color: red;
@@ -40,75 +92,8 @@
 }
 
 
-
 /* Pour les écrans de moins de 480px (smartphones) */
 /* For screens that are less than 480px (smartphones) */
 @media (max-width: 768px) {
   /* testos */
-}
-
-body
-{
-  background-color: var(--background);
-  color: var(--font_color);
-  /* font-family: monospace; */
-  font-family: Amulya-Bold;
-  font-size: 25px;
-  /* height: 100%; */
-  /* width: 100%; */
-}
-
-.linkhover:hover {
-  background-color: var(--buttonbackgroundhover);
-  border-radius: 9px;
-  border-width: 1px;
-  border-color: black;
-  cursor: pointer;
-}
-
-.b {
-  position: absolute;
-  /* height: 100%; */
-  /* width: 100%; */
-  top: 45%;
-  left: 40%;
-  background-color: black;
-  border-color: white;
-  border-radius: 9px;
-  padding-inline: 10%;
-  padding-top: 10%;
-  display: grid;
-  justify-content: center;
-}
-
-.credits
-{
-  color: var(--creditstext);
-}
-
-.orange
-{
-  color: var(--orange);
-}
-
-.blue
-{
-  color: var(--blue);
-}
-
-.red
-{
-  color: rgba(255, 47, 47, 100);
-}
-
-.wheat {
-  color: rgb(143, 93, 0);
-}
-
-p {
-  color: var(--font_color);
-}
-
-.anone {
-  text-decoration: none;
 }
