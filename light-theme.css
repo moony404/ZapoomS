@@ -27,6 +27,44 @@
   margin: 0px;
 }
 
+/* FOR ALL PAGES AND SCREENS */
+/* From Uiverse.io by Jedi-hongbin */ 
+.back_button {
+  position: absolute;
+  top: 4%;
+  left: 3%;
+ display: flex;
+ height: 3em;
+ width: 100px;
+ align-items: center;
+ justify-content: center;
+ background-color: #eeeeee4b;
+ border-radius: 9px;
+ letter-spacing: 1px;
+ transition: all 0.2s linear;
+ cursor: pointer;
+ border: none;
+ background: #fff;
+}
+
+button > svg {
+ margin-right: 5px;
+ margin-left: 5px;
+ font-size: 20px;
+ transition: all 0.4s ease-in;
+}
+
+button:hover > svg {
+ font-size: 1.2em;
+ transform: translateX(-5px);
+}
+
+button:hover {
+ box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+ transform: translateY(-2px);
+}
+
+
 @media (min-width: 1024px) {
   body {
     background-color: var(--background);
