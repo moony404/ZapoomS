@@ -86,3 +86,9 @@ p {
 canvas {
   position: fixed; touch-action: none;
 }
+
+.b {
+  height: 100px;
+  width: 100px;
+  color: red;
+}
