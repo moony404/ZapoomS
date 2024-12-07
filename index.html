@@ -8,44 +8,16 @@
         <title>ZapoomS</title>
     </head>
     <body>
-    <!-- <h1 class="title linkhover"><a class="anone" href="index.html"><em>ZapoomS</em></a></h1> -->
-	<!-- <nav>
-        <lu>
-            <li><a class="anone" href="zapooms_wiki.html" title="les choses a savoir" ><img src="img/book-open.svg" alt="wiki logo">wiki</a></li>
-            <li><a class="anone" href="zapooms_par.html" title="a changer :)"><img src="img/settings.svg" alt="parameters logo">paramètres</a></li>
-            <li><a class="anone" href="zapooms_aide.html" title="c'est cool de l'aide des fois"><img src="img/help-circle.svg" alt="help logo">aide</a></li>
-            <li><a class="anone" href="zapooms_credits.html" title="les personnes qui travaillent dessus"><img src="img/users.svg" alt="credits logo">credits</a></li>
-        </lu>
-	</nav> -->
-    <!-- <p>Bienvenue sur le site de Zapoom !<br> Il faut que vous commenciez par lire le <a href="ZapoomS_Wiki.html" title="Les choses a savoir" class="orange">wiki</a>.<br>Le discord de Zapoom : <a href="https://www.discord.com/invite/zMP9aBZJ5u" title="Le discord de Zapoom" class="orange">discord</a>.</p> -->
-    <!-- <p><h2 class="orange">Les jeux vidéos chez Zapoom :</h2></p> -->
-    <!-- <p>La page sur ZapoomC est là : <a class="hovereffect" href="article/ZapoomC.html" title="Le lien vers la page de téléchargement de ZapoomC" class="orange">ZapoomC</a></p> -->
-    <canvas touch-action="none" width="961" height="522"></canvas>
-    <div> <!-- c'est le div du bouton bubble-->
-        <button class="button">
-        <p><a class="anone" href="article/ZapoomC.html" title="Le lien vers la page de téléchargement de ZapoomC" class="orange">ZapoomC</a></p>
-        <div class="liquid">
-            <span style="--i:0"><span></span></span>
-            <span style="--i:1"><span></span></span>
-            <span style="--i:2"><span></span></span>
-            <span style="--i:3"><span></span></span>
-            <span style="--i:4"><span></span></span>
-            <span style="--i:5"><span></span></span>
-            <span style="--i:6"><span></span></span>
-            <span class="bg"><span></span></span>
-        </div>
-        <svg>
-            <filter id="gooey">
-            <feGaussianBlur in="SourceGraphic" stdDeviation="10"></feGaussianBlur>
-            <feColorMatrix
-                values="1 0 0 0 0
-                0 1 0 0 0 
-                0 0 1 0 0
-                0 0 0 20 -10"
-            ></feColorMatrix>
-            </filter>
-        </svg>
-        </button>
-    </div>
+        <script src="bubble.js"></script>
+        <style>
+            .bubble {
+                top: 10em;
+                height: 50%;
+                width: 50%;
+                color: red;
+            }
+        </style>
+        <div class="bubble"><p>test</p></div>
+        <!-- <canvas touch-action="none" width="961" height="522"></canvas> -->
     </body>
 </html>
