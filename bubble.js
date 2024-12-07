@@ -309,8 +309,3 @@ init = function() {
 }
 
 init();
-
-let resize = function() {
-  canvas.width = 600; // Largeur du canvas
-  canvas.height = 4000; // Hauteur du canvas
-};
