@@ -84,7 +84,7 @@ class Blob {
     this._color = value;
   }
   get color() {
-    return this._color || '#0eee66';
+    return this._color || '#000000';
   }
   
   set canvas(value) {
@@ -246,7 +246,7 @@ init = function() {
 
     // Vérifier si le clic est dans la bulle
     if (distance <= radius) {
-      window.location.href = "article/ZapoomC.html"; // Rediriger uniquement si le clic est dans la bulle
+      window.location.href = "next.html"; // Rediriger uniquement si le clic est dans la bulle
     }
   });
 
