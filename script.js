@@ -30,3 +30,6 @@ function startAnimation() {
 
 // Ajouter un écouteur d'événement pour le survol
 button.addEventListener('mouseenter', startAnimation);
+
+// ######################################################################################################
+// part for the button on home page index.html

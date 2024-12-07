@@ -227,3 +227,8 @@ p {
     transform: translateX(5px) translateY(-8px) scale(0.9);
   }
 }
+
+/* part for the bubble button balck and white */
+canvas {
+  position: fixed; touch-action: none;
+}
