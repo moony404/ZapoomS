@@ -121,7 +121,7 @@ class Blob {
     }
   }
   get position() {
-    return this._position || { x: 0.5, y: 0.5 };
+    return this._position || { x: 0.6, y: 0.5 };
   }
   
   get divisional() {
@@ -129,7 +129,7 @@ class Blob {
   }
   
   get center() {
-    return { x: this.canvas.width * this.position.x, y: this.canvas.height * this.position.y };
+    return { x: this.canvas.width * 0.9*this.position.x, y: this.canvas.height * this.position.y };
   }
   
   set running(value) {
@@ -223,8 +223,8 @@ init = function() {
   document.body.appendChild(canvas);
 
   let resize = function() {
-    canvas.width = window.innerWidth-20;
-    canvas.height = window.innerHeight-20;
+    canvas.width = window.innerWidth-40;
+    canvas.height = window.innerHeight-40;
   }
   window.addEventListener('resize', resize);
   resize();
