@@ -74,13 +74,8 @@
 
 #buttontheme {
   background-color: lightgreen;
-  height: 100%;
-  width: 100%;
-}
-
-.buttontheme {
-  height: 100%-5em;
-  width: 100%-1em;
+  height: 100vw;
+  width: 100vw;
 }
 
 /* for laptops and pc */
