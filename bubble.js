@@ -228,7 +228,7 @@ function updateBlobColor() {
   console.log("testststetsetsetsetsetsetsetsetsesetsetsetsetsetsetsetsetsettse")
   if(blob && blob.render) {
     blob.color = blob.color; // Force le redessin avec la nouvelle couleur
-    blob.render(); // Redessine le blob } } document.getElementById('buttontheme').addEventListener('click', updateBlobColor); // Initialisation du blob comme avant blob = new Blob
+    blob.render(); // Redessine le blob 
   }
 }
 
