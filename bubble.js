@@ -311,17 +311,22 @@ init = function() {
   blob.render();
 }
 
-const theme = document.documentElement.getAttribute('theme');
+const theme = document.documentElement.getAttribute('data-theme');
 console.log(theme); // Affiche "light" ou "dark"
 
-if (document.documentElement.getAttribute('theme') === 'dark') {
+if (theme === 'dark') {
   console.log('Le thème est sombre');
   blob.color = "#FFFFFF"; // Change la couleur du blob en rouge
 } else {
   console.log('Le thème est clair');
-  console.log(document.documentElement.getAttribute('theme'))
+  console.log("celui ci :");
+  console.log(document.documentElement.getAttribute('data-theme'));
   // blob.color = "#d00000"; // Change la couleur du blob en rouge
 }
+
+console.log("here line 326");
+var currentTheme = document.documentElement.getAttribute("data-theme");
+console.log(theme);
 
 // blob.color = "#229200"; // Change la couleur du blob en rouge
 
