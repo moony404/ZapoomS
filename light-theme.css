@@ -73,13 +73,14 @@
 }
 
 #buttontheme {
-  height: 100vw;
-  width: 100vw;
+  background-color: lightgreen;
+  height: 100%;
+  width: 100%;
 }
 
 .buttontheme {
-  height: auto;
-  width: auto;
+  height: 100%-5em;
+  width: 100%-1em;
 }
 
 /* for laptops and pc */
