@@ -25,6 +25,8 @@ if (document.documentElement.getAttribute('theme') === 'dark') {
   console.log('Le thème est clair');
 }
 
+copns
+
 // console.log(document.documentElement.getAttribute('data-theme'))
 
 

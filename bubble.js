@@ -326,6 +326,33 @@ if (theme === 'dark') { // on regarde si la page est en theme sombre
 
 console.log("here line 326"); // juste pour la console
 
+
+
+// script.js is exectued on all pages of ZapoomS
+document.addEventListener("DOMContentLoaded", () => {
+  //fetch night mode state in user localStorage
+  let theme = localStorage.getItem("theme") || false;
+  //set up theme
+  if (theme) {
+    document.documentElement.setAttribute("data-theme", theme);
+  }
+});
+
+document.getElementById('buttontheme').onclick = () => {
+  var currentTheme = document.documentElement.getAttribute("data-theme");
+  var newTheme = currentTheme === "dark" ? "light" : "dark";
+  document.documentElement.setAttribute("data-theme", newTheme);
+  localStorage.setItem( "theme" , newTheme );
+  // Met à jour le texte affiché
+  document.getElementById("theme-status").textContent = "Thème actuel : " + newTheme;
+};
+if (document.documentElement.getAttribute('theme') === 'dark') {
+  console.log('Le thème est sombre');
+} else {
+  console.log('Le thème est clair');
+}
+// console.log(document.documentElement.getAttribute('data-theme'))
+
 // blob.color = "#229200"; // Change la couleur du blob en rouge
 
 init();
