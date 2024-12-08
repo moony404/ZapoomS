@@ -13,6 +13,7 @@ document.getElementById('buttontheme').onclick = () => {
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem( "theme" , newTheme );
+  console.log(document.documentElement.getAttribute('data-theme'))
 };
 
 
