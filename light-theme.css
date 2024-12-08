@@ -10,6 +10,8 @@
     --blue: blue;
     --orange: orange;
     --creditstext: rgb(152, 152, 153);
+    --back_button_first: rgba(0, 0, 0, 0.495);
+    --back_button_second: rgb(161, 161, 161);
 }
 
 :root[data-theme="dark"] {
@@ -21,6 +23,8 @@
     --blue: rgb(4, 24, 155);
     --orange: white;
     --creditstext: red;
+    --back_button_first: rgb(74, 61, 255);
+    --back_button_second: rgb(255, 36, 178);
 }
 
 * {
@@ -31,8 +35,8 @@
 /* From Uiverse.io by Jedi-hongbin */ 
 .back_button {
   position: absolute;
-  top: 4%;
-  left: 3%;
+  top: 4.5%;
+  left: 4.5%;
  display: flex;
  height: 3em;
  width: 100px;
@@ -47,21 +51,25 @@
  background: #fff;
 }
 
-button > svg {
+.back_button > svg {
  margin-right: 5px;
  margin-left: 5px;
  font-size: 20px;
  transition: all 0.4s ease-in;
 }
 
-button:hover > svg {
+.back_button:hover > svg {
  font-size: 1.2em;
  transform: translateX(-5px);
 }
 
-button:hover {
- box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff;
+.back_button:hover {
+ box-shadow: 9px 9px 33px var(--back_button_first), -9px -9px 33px var(--back_button_second);
  transform: translateY(-2px);
+}
+
+canvas {
+  transition: background-color 0.3s ease;
 }
 
 /* for laptops and pc */
@@ -76,13 +84,13 @@ button:hover {
     /* width: 100%; */
   }
 
-  .linkhover:hover {
+  /* .linkhover:hover {
     background-color: var(--buttonbackgroundhover);
     border-radius: 9px;
     border-width: 1px;
     border-color: black;
     cursor: pointer;
-  }
+  } */
 
   .credits
   {
@@ -122,18 +130,11 @@ button:hover {
 /* For screens that are less than 768px (tablets) */
 @media (max-width: 768px) {
   /* test for tablets */
-  body {
-    font-size: 100px;
-    color: red;
-  }
 }
 
 
 /* Pour les écrans de moins de 480px (smartphones) */
 /* For screens that are less than 480px (smartphones) */
 @media (max-width: 480px) {
-  /* testos */
-  body {
-    /* tesosbody */
-  }
+  /* test for smartphones */
 }
