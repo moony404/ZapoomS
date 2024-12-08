@@ -316,9 +316,13 @@ console.log(theme); // Affiche "light" ou "dark"
 
 if (document.documentElement.getAttribute('data-theme') === 'dark') {
   console.log('Le thème est sombreosdjsjdj');
+  blob.color = "#FFFFFF"; // Change la couleur du blob en rouge
 } else {
   console.log('Le thème est clairsdsd');
   console.log(document.documentElement.getAttribute('data-theme'))
+  blob.color = "#229200"; // Change la couleur du blob en rouge
 }
+
+// blob.color = "#229200"; // Change la couleur du blob en rouge
 
 init();
