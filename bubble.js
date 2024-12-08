@@ -315,42 +315,17 @@ init = function() {
 const theme = document.documentElement.getAttribute('data-theme');
 
 if (theme === 'dark') { // on regarde si la page est en theme sombre
-  console.log('Le thème est sombre'); // on affiche dans la console que le theme est sombre
+  console.log('Le thème est sombrezzz'); // on affiche dans la console que le theme est sombre
   blob.color = "#dcFFFF"; // Change la couleur du blob en rouge
 } else { // sinon le theme est clair
-  console.log('Le thème est clair'); // donc on dit que le theme est clair
+  console.log('Le thème est clairzzz'); // donc on dit que le theme est clair
   console.log("else :"); // tkt c'est pour s'y restrouver
   console.log(document.documentElement.getAttribute('data-theme')); // on affiche le theme de la page directement depuis l'attribut dans les valeurs de session local
   // blob.color = "#d00000"; // Change la couleur du blob en rouge
 }
 
-console.log("here line 326"); // juste pour la console
+console.log("end"); // juste pour la console
 
-
-
-// script.js is exectued on all pages of ZapoomS
-document.addEventListener("DOMContentLoaded", () => {
-  //fetch night mode state in user localStorage
-  let theme = localStorage.getItem("theme") || false;
-  //set up theme
-  if (theme) {
-    document.documentElement.setAttribute("data-theme", theme);
-  }
-});
-
-
-// new
-document.getElementById('buttontheme').onclick = () => {
-  var currentTheme = document.documentElement.getAttribute("data-theme");
-  var newTheme = currentTheme === "dark" ? "light" : "dark";
-  document.documentElement.setAttribute("data-theme", newTheme);
-  localStorage.setItem( "theme" , newTheme );
-};
-if (document.documentElement.getAttribute('theme') === 'dark') {
-  console.log('Le thème est SOMBRE');
-} else {
-  console.log('Le thème est CLAIR');
-}
 // console.log(document.documentElement.getAttribute('data-theme'))
 
 // blob.color = "#229200"; // Change la couleur du blob en rouge
