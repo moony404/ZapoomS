@@ -269,7 +269,7 @@ init = function() {
       angle = Math.atan2(vector.y, vector.x);
       hover = true;
       canvas.style.cursor = "pointer"; // add to the pointer proprety to the cursor so it can be like a link
-      // blob.color = '#77FF00';
+      blob.color = '#efc621';
     } else if(dist > blob.radius && hover === true){ // if to know if the cursor ISN'T on the bubble
       let vector = { x: e.clientX - pos.x, y: e.clientY - pos.y };
       angle = Math.atan2(vector.y, vector.x);
@@ -314,13 +314,13 @@ init = function() {
 const theme = document.documentElement.getAttribute('data-theme');
 console.log(theme); // Affiche "light" ou "dark"
 
-if (document.documentElement.getAttribute('data-theme') === 'dark') {
-  console.log('Le thème est sombreosdjsjdj');
+if (document.documentElement.getAttribute('theme') === 'dark') {
+  console.log('Le thème est sombre');
   blob.color = "#FFFFFF"; // Change la couleur du blob en rouge
 } else {
-  console.log('Le thème est clairsdsd');
-  console.log(document.documentElement.getAttribute('data-theme'))
-  blob.color = "#229200"; // Change la couleur du blob en rouge
+  console.log('Le thème est clair');
+  console.log(document.documentElement.getAttribute('theme'))
+  blob.color = "#d00000"; // Change la couleur du blob en rouge
 }
 
 // blob.color = "#229200"; // Change la couleur du blob en rouge
