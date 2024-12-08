@@ -338,18 +338,18 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 
+
+// new
 document.getElementById('buttontheme').onclick = () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem( "theme" , newTheme );
-  // Met à jour le texte affiché
-  document.getElementById("theme-status").textContent = "Thème actuel : " + newTheme;
 };
 if (document.documentElement.getAttribute('theme') === 'dark') {
-  console.log('Le thème est sombre');
+  console.log('Le thème est SOMBRE');
 } else {
-  console.log('Le thème est clair');
+  console.log('Le thème est CLAIR');
 }
 // console.log(document.documentElement.getAttribute('data-theme'))
 

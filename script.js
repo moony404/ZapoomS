@@ -7,14 +7,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.setAttribute("data-theme", theme);
   }
 });
-
 document.getElementById('buttontheme').onclick = () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem( "theme" , newTheme );
-  // Met à jour le texte affiché
-  document.getElementById("theme-status").textContent = "Thème actuel : " + newTheme;
 };
 
 
@@ -22,10 +19,10 @@ document.getElementById('buttontheme').onclick = () => {
 if (document.documentElement.getAttribute('theme') === 'dark') {
   console.log('Le thème est sombre');
 } else {
-  console.log('Le thème est clair');
+  console.log('Le thème est zizi');
 }
 
-copns
+console.log("HEREEEEEEEE")
 
 // console.log(document.documentElement.getAttribute('data-theme'))
 
