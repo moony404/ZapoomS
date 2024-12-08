@@ -64,7 +64,7 @@ button:hover {
  transform: translateY(-2px);
 }
 
-
+/* for laptops and pc */
 @media (min-width: 1024px) {
   body {
     background-color: var(--background);
@@ -120,8 +120,7 @@ button:hover {
 
 /* Pour les écrans de moins de 768px (tablettes) */
 /* For screens that are less than 768px (tablets) */
-@media (max-width: 480px) {
-  /* testos */
+@media (max-width: 768px) {
   /* test for tablets */
   body {
     font-size: 100px;
@@ -132,6 +131,6 @@ button:hover {
 
 /* Pour les écrans de moins de 480px (smartphones) */
 /* For screens that are less than 480px (smartphones) */
-@media (max-width: 768px) {
+@media (max-width: 480px) {
   /* testos */
 }
