@@ -219,6 +219,8 @@ blob = new Blob;
 init = function() {
   canvas = document.createElement('canvas');
   canvas.setAttribute('touch-action', 'none');
+  //MODIFIED HERE AT 222
+  canvas.setAttribute('id', 'myCanvas')
 
   document.body.appendChild(canvas);
 
