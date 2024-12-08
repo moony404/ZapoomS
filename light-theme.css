@@ -68,7 +68,7 @@
  transform: translateY(-2px);
 }
 
-#myCanvas {
+#blob {
   transition: background-color 0.3s ease;
 }
 
