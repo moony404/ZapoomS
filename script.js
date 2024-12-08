@@ -14,14 +14,6 @@ document.getElementById('buttontheme').onclick = () => {
   localStorage.setItem( "theme" , newTheme );
 };
 
-
-
-if (document.documentElement.getAttribute('theme') === 'dark') {
-  console.log('Le thème est sombre');
-} else {
-  console.log('Le thème est zizi');
-}
-
 console.log("HEREEEEEEEE")
 
 // console.log(document.documentElement.getAttribute('data-theme'))
