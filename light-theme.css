@@ -133,4 +133,7 @@ button:hover {
 /* For screens that are less than 480px (smartphones) */
 @media (max-width: 480px) {
   /* testos */
+  body {
+    /* tesosbody */
+  }
 }
