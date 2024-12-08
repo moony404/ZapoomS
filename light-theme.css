@@ -72,6 +72,16 @@
   transition: background-color 0.3s ease;
 }
 
+#buttontheme {
+  height: 100vw;
+  width: 100vw;
+}
+
+.buttontheme {
+  height: auto;
+  width: auto;
+}
+
 /* for laptops and pc */
 @media (min-width: 1024px) {
   body {
