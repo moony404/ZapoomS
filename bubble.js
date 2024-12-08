@@ -311,22 +311,20 @@ init = function() {
   blob.render();
 }
 
+// on créer la variable theme qui prend la valeur de data-theme donc le theme de la page soit light ou dark
 const theme = document.documentElement.getAttribute('data-theme');
-console.log(theme); // Affiche "light" ou "dark"
 
-if (theme === 'dark') {
-  console.log('Le thème est sombre');
-  blob.color = "#FFFFFF"; // Change la couleur du blob en rouge
-} else {
-  console.log('Le thème est clair');
-  console.log("celui ci :");
-  console.log(document.documentElement.getAttribute('data-theme'));
+if (theme === 'dark') { // on regarde si la page est en theme sombre
+  console.log('Le thème est sombre'); // on affiche dans la console que le theme est sombre
+  blob.color = "#dcFFFF"; // Change la couleur du blob en rouge
+} else { // sinon le theme est clair
+  console.log('Le thème est clair'); // donc on dit que le theme est clair
+  console.log("else :"); // tkt c'est pour s'y restrouver
+  console.log(document.documentElement.getAttribute('data-theme')); // on affiche le theme de la page directement depuis l'attribut dans les valeurs de session local
   // blob.color = "#d00000"; // Change la couleur du blob en rouge
 }
 
-console.log("here line 326");
-var currentTheme = document.documentElement.getAttribute("data-theme");
-console.log(theme);
+console.log("here line 326"); // juste pour la console
 
 // blob.color = "#229200"; // Change la couleur du blob en rouge
 
