@@ -85,6 +85,9 @@ class Blob {
   }
   get color() {
     return this._color || '#000000';
+    // Change color based on theme
+    let theme = document.documentElement.getAttribute('data-theme');
+    return theme === 'dark' ? '#FFFFFF' : '#000000';
   }
   
   set canvas(value) {
@@ -213,6 +216,36 @@ class Point {
     return this._friction || 0.0085;
   }
 }
+
+
+
+
+
+
+
+
+function updateBlobColor() {
+  if(blob && blob.render) {
+    blob.color = blob.color; // Force le redessin avec la nouvelle couleur
+    blob.render(); // Redessine le blob } } document.getElementById('buttontheme').addEventListener('click', updateBlobColor); // Initialisation du blob comme avant blob = new Blob
+
+function updateBlobColor() {
+  if(blob && blob.render) {
+    blob. color = blob. color; // Force le redessin avec la nouvelle couleur
+    blob.render(); // Redessine le blob
+  }
+}
+
+document.getElementById('buttontheme').addEventListener('click', updateBlobColor);
+
+
+
+
+
+
+
+
+
 
 blob = new Blob;
 
