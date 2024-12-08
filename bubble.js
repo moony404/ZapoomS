@@ -311,3 +311,42 @@ init = function() {
 }
 
 init();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// document.getElementById("buttontheme").onclick = () => {
+//   const currentTheme = document.documentElement.getAttribute("data-theme");
+//   const newTheme = currentTheme === "dark" ? "light" : "dark";
+//   document.documentElement.setAttribute("data-theme", newTheme);
+//   localStorage.setItem("theme", newTheme);
+
+//   // Change la couleur du blob en fonction du thème
+//   const blobColor = newTheme === "dark" ? "#FFFFFF" : "#000000";
+//   blob.setColor(blobColor);
+
+//   // Redessiner le blob
+//   blob.render();
+// };
