@@ -16,7 +16,7 @@ document.getElementById('buttontheme').onclick = () => {
 };
 
 
-
+// console.log(document.documentElement.getAttribute('data-theme'))
 
 
 

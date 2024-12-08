@@ -221,7 +221,7 @@ init = function() {
   canvas.setAttribute('touch-action', 'none');
   //MODIFIED HERE AT 222
   canvas.setAttribute('id', 'blob')
-  document.getElementById("myCanvas").style.color = "blue";
+  // document.getElementById("blob").style.backgroundColor = "blue";
 
   document.body.appendChild(canvas);
 
@@ -309,6 +309,16 @@ init = function() {
   blob.canvas = canvas;
   blob.init();
   blob.render();
+}
+
+const theme = document.documentElement.getAttribute('data-theme');
+console.log(theme); // Affiche "light" ou "dark"
+
+if (document.documentElement.getAttribute('data-theme') === 'dark') {
+  console.log('Le thème est sombreosdjsjdj');
+} else {
+  console.log('Le thème est clairsdsd');
+  console.log(document.documentElement.getAttribute('data-theme'))
 }
 
 init();
