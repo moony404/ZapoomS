@@ -228,15 +228,10 @@ function updateBlobColor() {
   if(blob && blob.render) {
     blob.color = blob.color; // Force le redessin avec la nouvelle couleur
     blob.render(); // Redessine le blob } } document.getElementById('buttontheme').addEventListener('click', updateBlobColor); // Initialisation du blob comme avant blob = new Blob
-
-function updateBlobColor() {
-  if(blob && blob.render) {
-    blob. color = blob. color; // Force le redessin avec la nouvelle couleur
-    blob.render(); // Redessine le blob
   }
 }
 
-document.getElementById('buttontheme').addEventListener('click', updateBlobColor);
+document.getElementById('changeBlobColor').addEventListener('click', updateBlobColor);
 
 
 
@@ -344,20 +339,20 @@ init = function() {
   blob.render();
 }
 
-// on créer la variable theme qui prend la valeur de data-theme donc le theme de la page soit light ou dark
-const theme = document.documentElement.getAttribute('data-theme');
+// // on créer la variable theme qui prend la valeur de data-theme donc le theme de la page soit light ou dark
+// const theme = document.documentElement.getAttribute('data-theme');
 
-if (theme === 'dark') { // on regarde si la page est en theme sombre
-  console.log('Le thème est sombrezzz'); // on affiche dans la console que le theme est sombre
-  blob.color = "#dcFFFF"; // Change la couleur du blob en rouge
-} else { // sinon le theme est clair
-  console.log('Le thème est clairzzz'); // donc on dit que le theme est clair
-  console.log("else :"); // tkt c'est pour s'y restrouver
-  console.log(document.documentElement.getAttribute('data-theme')); // on affiche le theme de la page directement depuis l'attribut dans les valeurs de session local
-  // blob.color = "#d00000"; // Change la couleur du blob en rouge
-}
+// if (theme === 'dark') { // on regarde si la page est en theme sombre
+//   console.log('Le thème est sombrezzz'); // on affiche dans la console que le theme est sombre
+//   blob.color = "#dcFFFF"; // Change la couleur du blob en rouge
+// } else { // sinon le theme est clair
+//   console.log('Le thème est clairzzz'); // donc on dit que le theme est clair
+//   console.log("else :"); // tkt c'est pour s'y restrouver
+//   console.log(document.documentElement.getAttribute('data-theme')); // on affiche le theme de la page directement depuis l'attribut dans les valeurs de session local
+//   // blob.color = "#d00000"; // Change la couleur du blob en rouge
+// }
 
-console.log("end"); // juste pour la console
+// console.log("end"); // juste pour la console
 
 // console.log(document.documentElement.getAttribute('data-theme'))
 
