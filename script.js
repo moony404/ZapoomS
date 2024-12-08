@@ -13,7 +13,11 @@ document.getElementById('buttontheme').onclick = () => {
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem( "theme" , newTheme );
+  // Met à jour le texte affiché
+  document.getElementById("theme-status").textContent = "Thème actuel : " + newTheme;
 };
+
+
 
 if (document.documentElement.getAttribute('theme') === 'dark') {
   console.log('Le thème est sombre');
@@ -22,7 +26,6 @@ if (document.documentElement.getAttribute('theme') === 'dark') {
 }
 
 // console.log(document.documentElement.getAttribute('data-theme'))
-
 
 
 // document.addEventListener("DOMContentLoaded", () => {
