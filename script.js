@@ -14,8 +14,6 @@ document.getElementById('buttontheme').onclick = () => {
   localStorage.setItem( "theme" , newTheme );
 };
 
-console.log("HEREEEEEEEE")
-
 // console.log(document.documentElement.getAttribute('data-theme'))
 
 
