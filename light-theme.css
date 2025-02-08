@@ -43,7 +43,7 @@
  align-items: center;
  justify-content: center;
  background-color: #eeeeee4b;
- border-radius: 9px;
+ border-radius: 50px;
  letter-spacing: 1px;
  transition: all 0.2s linear;
  cursor: pointer;
@@ -143,59 +143,4 @@
 /* For screens that are less than 480px (smartphones) */
 @media (max-width: 480px) {
   /* test for smartphones */
-}
-
-body {
-	background: hsl(212, 100%, 91%);
-}
-$size: 50vmin;
-$speed: 35s;
-.bubble {
-	width: $size;
-	height: $size;
-	background: hsl(212, 100%, 71%);
-	border: ($size * .09) solid hsl(212, 100%, 81%);
-	position: absolute;
-	top: calc(50% - (#{$size} * .49));
-	left: calc(50% - (#{$size} * .49));
-	overflow: visible;
-	border-radius: 48% 40% 62% 47% /  61% 49% 64% 43%;
-	animation: rotate $speed infinite linear;
-	z-index: 1;
-}
-@keyframes rotate {
-	0% { transform: rotate(1turn); }
-}
-
-.bubble:before {
-	content: '';
-	position: absolute;
-	top: $size * .1;
-	left: $size * .1;
-	width: calc(100% - (#{$size} * .3));
-	height: calc(100% - (#{$size} * .3));
-	background: hsl(212, 100%, 51%);
-	border: ($size * .065) solid hsl(212, 100%, 61%);
-	border-radius: 41% 40% 50% 55% /  49% 52% 51% 43%;
-	z-index: -2;
-	animation: rotateBefore $speed infinite linear;
-}
-@keyframes rotateBefore {
-	0% { transform: rotate(-2turn); }
-}
-
-.bubble:after {
-	content: '';
-	position: absolute;
-	top: $size * .2;
-	left: $size * .2;
-	width: calc(100% - (#{$size * .5}));
-	height: calc(100% - (#{$size * .5}));
-	background: hsl(212, 100%, 31%);
-	border: ($size * .05) solid hsl(212, 100%, 41%);
-	border-radius: 42% 63% 51% 60% / 47% 62% 42% 52%;
-	animation: rotateAfter $speed infinite linear;
-}
-@keyframes rotateAfter {
-	0% { transform: rotate(2turn); }
 }
