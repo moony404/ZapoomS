@@ -78,10 +78,18 @@
   width: 100vw;
 }
 
+.bubble_center {
+  color: lightblue;
+  border-radius: 20px;
+  border-color: goldenrod;
+  height: 10px;
+  width: 10px;
+}
+
 /* for laptops and pc */
 @media (min-width: 1024px) {
   body {
-    background-color: var(--background);
+    /* background-color: var(--background); */
     color: var(--font_color);
     font-family: Amulya-Bold;
     font-size: 25px;
