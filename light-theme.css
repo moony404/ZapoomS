@@ -79,10 +79,15 @@ body {
 }
 
 #buttontheme {
-  background-color: lightgreen;
-  height: 2vw;
-  width: 2vw;
-  border-radius: px;
+  background-color: rgba(123, 241, 239, 0.797);
+  height: 6vw;
+  width: 6vw;
+  border-radius: 9px;
+}
+
+#buttontheme:hover {
+  background-color: var(--buttonbackgroundhover);
+  cursor: pointer;
 }
 
 .bubble_center {
