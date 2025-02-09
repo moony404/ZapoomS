@@ -31,7 +31,13 @@
   margin: 0px;
 }
 
-/* FOR ALL PAGES AND SCREENS */
+body {
+  background-color: var(--background);
+  color: var(--font_color);
+  font-family: Amulya-Bold;
+  font-size: 25px;
+}
+
 /* From Uiverse.io by Jedi-hongbin */ 
 .icon {
   margin-left: 2.5svw;
@@ -87,8 +93,6 @@
   width: 10px;
 }
 
-/* for laptops and pc */
-/* @media (min-width: 1024px) { */
 body {
   background-color: var(--background);
   color: var(--font_color);
