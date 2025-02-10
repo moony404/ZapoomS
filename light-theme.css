@@ -82,7 +82,7 @@ body {
   background-color: rgba(123, 241, 239, 0.797);
   height: 6vw;
   width: 6vw;
-  border-radius: 9px;
+  border-radius: 21px;
 }
 
 #buttontheme:hover {
@@ -147,14 +147,7 @@ p {
 
 @media (max-width: 580px) {
   #buttontheme {
-    background-color: rgba(123, 241, 239, 0.797);
     height: 10vw;
     width: 10vw;
-    border-radius: 9px;
-  }
-
-  #buttontheme:hover {
-    background-color: var(--buttonbackgroundhover);
-    cursor: pointer;
   }
 }
