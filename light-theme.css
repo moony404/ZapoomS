@@ -144,17 +144,17 @@ p {
   height: 10px;
   width: 10px;
 }
-/* } end of the laptops and pc media responsive design */
 
+@media (max-width: 580px) {
+  #buttontheme {
+    background-color: rgba(123, 241, 239, 0.797);
+    height: 10vw;
+    width: 10vw;
+    border-radius: 9px;
+  }
 
-/* pour les écrans de moins de 768px (tablettes) */
-/* for screens that are less than 768px (tablets) */
-/* @media (max-width: 768px) { */
-  /* test for tablets */
-/* } */
-
-/* pour les écrans de moins de 480px (smartphones) */
-/* for screens that are less than 480px (smartphones) */
-/* @media (max-width: 480px) { */
-  /* test for smartphones */
-/* } */
+  #buttontheme:hover {
+    background-color: var(--buttonbackgroundhover);
+    cursor: pointer;
+  }
+}
