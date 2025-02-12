@@ -153,3 +153,219 @@ p {
     width: 10vw;
   }
 }
+
+
+/****************************/
+
+
+/* setting up the full page */
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/*************************/
+
+
+/* layout of the columns */
+
+.cols {
+  width: 100%;
+  clear: both;
+}
+
+.cols .tile {
+  height: 100%;
+  float: left;
+  overflow: hidden;
+}
+
+
+/* two columns layout */
+
+.cols.two .tile {
+  width: 50%;
+}
+
+
+/* three columns layout */
+
+.cols.three .tile {
+  width: 33%;
+}
+
+.cols.three .tile:last-of-type {
+  width: 34%;
+}
+
+
+/* four columns layout */
+
+.cols.four .tile {
+  width: 25%;
+}
+
+
+/**********************/
+
+
+/* layout of the rows */
+
+.rows {
+  height: 100%;
+}
+
+
+/* two rows layout */
+
+.rows.two .cols {
+  height: 50%;
+}
+
+
+/* three rows layout */
+
+.rows.three .cols {
+  height: 33%;
+}
+
+.rows.three .cols:last-of-type {
+  height: 34%;
+}
+
+
+/* four rows layout */
+
+.rows.four .cols {
+  height: 25%;
+}
+
+
+/*****************************************/
+
+
+/* some background images and decoration */
+
+.cols .tile {
+  opacity: 0.4;
+  background-size: cover;
+}
+
+.rows {
+  background: rgb(89, 89, 89);
+}
+
+.cols .tile.schmancy {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.cols .tile.schmancy.pic0 {
+  background-image: url("http://pipsum.com/850x600.jpg");
+}
+
+.cols .tile.schmancy.pic1 {
+  background-image: url("http://pipsum.com/800x600.jpg");
+}
+
+.cols .tile.schmancy.pic2 {
+  background-image: url("http://pipsum.com/800x650.jpg");
+}
+
+.cols .tile.schmancy.pic3 {
+  background-image: url("http://pipsum.com/800x550.jpg");
+}
+
+
+/************************************/
+
+
+/* typography and content of a tile */
+
+.tile .content {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 50%;
+  margin-left: -25%;
+}
+
+.tile {
+  font-family: Helvetica;
+  color: white;
+  align: center;
+}
+
+
+/************************/
+
+
+/* animate mouse effect */
+
+.cols .tile {
+  transition: 1s;
+}
+
+.cols .tile:hover {
+  opacity: 1;
+  font-size: 10em;
+}
+
+.cols.two:hover .tile {
+  width: 20%;
+}
+
+.cols.two:hover .tile:hover {
+  width: 80%;
+}
+
+.cols.three:hover .tile {
+  width: 20%;
+}
+
+.cols.three:hover .tile:hover {
+  width: 60%;
+}
+
+.cols.four:hover .tile {
+  width: 20%;
+}
+
+.cols.four:hover .tile:hover {
+  width: 40%;
+}
+
+.rows .cols {
+  transition: 1s;
+}
+
+.rows.two:hover .cols {
+  height: 20%;
+}
+
+.rows.two:hover .cols:hover {
+  height: 80%;
+}
+
+.rows.three:hover .cols {
+  height: 20%;
+}
+
+.rows.three:hover .cols:hover {
+  height: 60%;
+}
+
+.rows.four:hover .cols {
+  height: 20%;
+}
+
+.rows.four:hover .cols:hover {
+  height: 40%;
+}
