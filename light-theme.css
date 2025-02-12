@@ -78,7 +78,7 @@ body {
  transform: translateY(-2px);
 }
 
-#buttontheme {
+#button_theme {
   background-color: rgba(123, 241, 239, 0.797);
   height: 6vw;
   width: 6vw;
@@ -87,7 +87,7 @@ body {
   margin-top: 2vw;
 }
 
-#buttontheme:hover {
+#button_theme:hover {
   background-color: var(--buttonbackgroundhover);
   cursor: pointer;
 }
