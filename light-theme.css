@@ -38,6 +38,10 @@ body {
   font-size: 25px;
 }
 
+div {
+  cursor: default
+}
+
 /* From Uiverse.io by Jedi-hongbin */ 
 .icon {
   margin-left: 2.5svw;
