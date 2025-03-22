@@ -45,6 +45,8 @@ body {
   color: var(--font_color);
 }
 
+/* for button in general */
+
 .button {
   margin-top: 2vw;
   margin-left: 2vw;
@@ -60,9 +62,21 @@ body {
   cursor: pointer;
 }
 
+/* for button theme */
+
+#icon_theme {
+  transition: opacity 0.2s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
 .button_theme{
   width: 100px;
 }
+
+/* for the title h1 on the index.html page */
 
 .title {
   text-align: center;
@@ -77,13 +91,11 @@ body {
   width: 20vw;
 }
 
-/* div {
-  cursor: default
-} */
-
 p {
   color: var(--font_color);
 }
+
+/* to remove the underline in link */
 
 .anone {
   text-decoration: none;

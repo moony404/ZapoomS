@@ -25,15 +25,15 @@ document.getElementById('button_theme').onclick = () => {
   }
 };
 
-// document.getElementById('button_theme').onclick = () => {
-//   let img = document.getElementById("icon_theme");
+document.getElementById('button_theme').onclick = () => {
+  let img = document.getElementById("icon_theme");
 
-//   // Ajoute la classe pour le fondu
-//   img.classList.add("fade-out");
+  // Ajoute la classe pour le fondu
+  img.classList.add("fade-out");
 
-//   // Attends la fin de l'animation avant de changer l'image
-//   setTimeout(() => {
-//     img.src = img.src.includes("img/sun.svg") ? "img/moon.svg" : "img/sun.svg";
-//     img.classList.remove("fade-out"); // Réactive l'opacité après le changement
-//   }, 300); // Durée de l'animation (doit être la même que celle du CSS)
-// };
+  // Attends la fin de l'animation avant de changer l'image
+  setTimeout(() => {
+    img.src = img.src.includes("img/sun.svg") ? "img/moon.svg" : "img/sun.svg";
+    img.classList.remove("fade-out"); // Réactive l'opacité après le changement
+  }, 200); // Durée de l'animation (doit être la même que celle du CSS)
+};
