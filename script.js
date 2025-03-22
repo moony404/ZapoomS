@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.documentElement.setAttribute("data-theme", theme);
   }
 });
-document.getElementById('buttontheme').onclick = () => {
+document.getElementById('button_theme').onclick = () => {
   var currentTheme = document.documentElement.getAttribute("data-theme");
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
