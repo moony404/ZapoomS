@@ -37,12 +37,23 @@ body {
   color: var(--font_color);
   font-family: Inter,'Inter','Inter Fallback';
   src: url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('.ttf');
+  font-weight: 500;
+  line-height: 1.5;
   font-size: 25px;
 }
 
-div {
-  cursor: default
+h1 {
+  /* font-size: 100px; */
+  letter-spacing: -2px;
 }
+
+.title {
+  text-align: center;
+}
+
+/* div {
+  cursor: default
+} */
 
 /* From Uiverse.io by Jedi-hongbin */ 
 .icon {
