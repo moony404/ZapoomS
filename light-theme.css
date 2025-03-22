@@ -1,10 +1,10 @@
-@import url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
+/* @import url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf'); */
 
 :root {
     /* light theme */
     --background: white;
     --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
-    --font_color: #292929;
+    --font_color: black;
     --red: red;
     --azure: azure;
     --blue: blue;
@@ -30,15 +30,21 @@
 * {
   margin: 0px;
   text-rendering: optimizelegibility;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 25;
+  font-style: normal;
+  line-height: 1.5;
 }
 
 body {
   background-color: var(--background);
   color: var(--font_color);
-  font-family: serif;
-  font-weight: 500;
-  line-height: 1.5;
-  font-size: 25px;
+  /* font-family: serif; */
+  /* font-weight: 500; */
+  /* line-height: 1.5; */
+  /* font-size: 25px; */
 }
 
 .button {
