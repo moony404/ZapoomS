@@ -35,7 +35,7 @@
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 25;
+  font-size: 25px;
   font-style: normal;
   line-height: 1.5;
 }
@@ -60,6 +60,10 @@ body {
 .button:hover{
   background-color: var(--back_button_second);
   cursor: pointer;
+}
+
+.ZapoomS {
+  color: black;
 }
 
 /* for button theme */
