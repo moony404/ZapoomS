@@ -5,7 +5,6 @@ document.addEventListener("DOMContentLoaded", () => {
   //set up theme
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
-    console.log("hey")
   }
 });
 document.getElementById('button_theme').onclick = () => {
@@ -15,3 +14,19 @@ document.getElementById('button_theme').onclick = () => {
   localStorage.setItem( "theme" , newTheme );
   // il faut changer le bouton en mettanrt une lune quand on clique dessus
 };
+
+function setTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  updateThemeIcon(theme);
+}
+
+function updateThemeIcon(theme) {
+  const buttonTheme = document.getElementById('button_theme');
+  if (buttonTheme) {
+    if (theme === "dark") {
+      buttonTheme.innerHTML = '🌙'; // Lune
+    } else {
+      buttonTheme.innerHTML = '☀️'; // Soleil
+    }
+  }
+}
