@@ -1,5 +1,5 @@
 .gitignore
-# fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf
-# fonts/Inter/static
+fonts/Inter/Inter-Italic-VariableFont_opsz,wght.ttf
+fonts/Inter/static
 fonts/Inter/README.txt
 fonts/Inter/OFL.txt
