@@ -12,5 +12,5 @@ document.getElementById('button_theme').onclick = () => {
   var newTheme = currentTheme === "dark" ? "light" : "dark";
   document.documentElement.setAttribute("data-theme", newTheme);
   localStorage.setItem( "theme" , newTheme );
-  // il faut changer le bouton en mettanrt une lune quand on clique dessus
+  // il faut changer le bouton en mettant une lune quand on clique dessus et inversement
 };
