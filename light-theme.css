@@ -1,5 +1,10 @@
 @import url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf');
 
+@font-face {
+  font-family: Inter;
+  src: url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('.ttf');
+}
+
 :root {
     /* light theme */
     --background: white;
@@ -35,8 +40,6 @@
 body {
   background-color: var(--background);
   color: var(--font_color);
-  font-family: Inter,'Inter','Inter Fallback';
-  src: url('fonts/Inter/Inter-VariableFont_opsz\,wght.ttf') format('.ttf');
   font-weight: 500;
   line-height: 1.5;
   font-size: 25px;
