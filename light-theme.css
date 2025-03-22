@@ -42,13 +42,11 @@ body {
   font-size: 25px;
 }
 
-h1 {
-  /* font-size: 100px; */
-  letter-spacing: -2px;
-}
-
 .title {
   text-align: center;
+  font-size: 64px;
+  letter-spacing: -2px;
+  line-height: 1;
 }
 
 /* div {
