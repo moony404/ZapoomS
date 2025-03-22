@@ -14,3 +14,5 @@ document.getElementById('button_theme').onclick = () => {
   localStorage.setItem( "theme" , newTheme );
   // il faut changer le bouton en mettant une lune quand on clique dessus et inversement
 };
+
+document.getElementById("icon_theme").src = "img/moon.svg"; 

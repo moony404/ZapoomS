@@ -60,6 +60,10 @@ body {
   cursor: pointer;
 }
 
+.button, .button_theme{
+  width: 100px;
+}
+
 .title {
   text-align: center;
   font-size: 64px;
