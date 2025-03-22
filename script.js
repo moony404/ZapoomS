@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   //set up theme
   if (theme) {
     document.documentElement.setAttribute("data-theme", theme);
+    console.log("hey")
   }
 });
 document.getElementById('button_theme').onclick = () => {

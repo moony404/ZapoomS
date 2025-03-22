@@ -5,12 +5,13 @@
     --background: white;
     --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
     --font_color: black;
+    --button_color: rgb(114, 114, 114);
     --red: red;
     --azure: azure;
     --blue: blue;
     --orange: orange;
     --creditstext: rgb(152, 152, 153);
-    --back_button_first: rgba(0, 0, 0, 0.495);
+    --back_button_first: rgba(0, 0, 0, 0.146);
     --back_button_second: rgb(161, 161, 161);
 }
 
@@ -19,12 +20,13 @@
     --background: #1e1e1e;
     --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
     --font_color: rgb(71,255,178);
+    --button_color: rgb(114, 114, 114);
     --azure: rgb(20, 20, 20);
     --blue: rgb(4, 24, 155);
     --orange: white;
     --creditstext: red;
-    --back_button_first: rgb(74, 61, 255);
-    --back_button_second: rgb(255, 36, 178);
+    --back_button_first: rgb(225, 225, 225);
+    --back_button_second: rgb(154, 154, 154);
 }
 
 * {
@@ -44,8 +46,18 @@ body {
 }
 
 .button {
+  margin-top: 2vw;
+  margin-left: 2vw;
   font-size: 12px;
-  background-color: black;
+  background-color: var(--back_button_first);
+  color: var(--button_color);
+  border-radius: 9px;
+  border: none;
+}
+
+.button:hover{
+  background-color: var(--back_button_second);
+  cursor: pointer;
 }
 
 .title {
@@ -105,14 +117,14 @@ body {
  transform: translateY(-2px);
 }
 
-#button_theme {
+/* #button_theme {
   background-color: rgba(123, 241, 239, 0.797);
   height: 6vw;
   width: 6vw;
   border-radius: 21px;
   margin-left: 2vw;
   margin-top: 2vw;
-}
+} */
 
 @media (max-width: 580px) {
   #buttontheme {
