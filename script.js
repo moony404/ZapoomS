@@ -17,23 +17,11 @@ document.getElementById('button_theme').onclick = () => {
 
 document.getElementById('button_theme').onclick = () => {
   let img = document.getElementById("icon_theme");
-  // Vérifie l'image actuelle et alterne
-  if (img.src.includes("img/sun.svg")) {
-    img.src = "img/moon.svg";
-  } else {
-    img.src = "img/sun.svg";
-  }
-};
-
-document.getElementById('button_theme').onclick = () => {
-  let img = document.getElementById("icon_theme");
-
   // Ajoute la classe pour le fondu
   img.classList.add("fade-out");
-
   // Attends la fin de l'animation avant de changer l'image
   setTimeout(() => {
     img.src = img.src.includes("img/sun.svg") ? "img/moon.svg" : "img/sun.svg";
     img.classList.remove("fade-out"); // Réactive l'opacité après le changement
-  }, 200); // Durée de l'animation (doit être la même que celle du CSS)
+  }, 200); // Durée de l'animation
 };
