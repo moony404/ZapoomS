@@ -96,6 +96,16 @@ body {
   background-color: var(--back_button_second);
 }
 
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.products, header {
+  display: flex;
+  justify-items: flex-end;
+}
+
 /* for the title h1 on the index.html page */
 
 .title {
