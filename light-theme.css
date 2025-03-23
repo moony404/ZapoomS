@@ -70,7 +70,6 @@ body {
 #icon_theme {
   transition: opacity 0.2s ease-in-out;
 }
-
 .fade-out {
   opacity: 0;
 }
@@ -85,6 +84,7 @@ body {
   border-radius: 9px;
   border: none;
   cursor: pointer;
+  transition: background-color 0.1s ease-in-out; /* Ajout de la transition */
 }
 
 .button_theme:hover {
