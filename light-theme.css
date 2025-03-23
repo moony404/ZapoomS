@@ -10,7 +10,7 @@
     --blue: blue;
     --orange: orange;
     --creditstext: rgb(152, 152, 153);
-    --background_button_first: rgba(0, 0, 0, 0.146);
+    --background_button_first: rgba(0, 0, 0, 0);
     --background_button_second: rgba(55, 53, 47, 0.09);
 }
 
@@ -25,8 +25,8 @@
     --blue: rgb(4, 24, 155);
     --orange: white;
     --creditstext: red;
-    --back_button_first: rgb(225, 225, 225);
-    --back_button_second: rgb(154, 154, 154);
+    --background_button_first: rgb(225, 225, 225);
+    --background_button_second: rgb(154, 154, 154);
 }
 
 * {
@@ -51,7 +51,7 @@ body {
   margin-top: 2vw;
   margin-left: 2vw;
   font-size: 12px;
-  background-color: var(--back_button_first);
+  background-color: var(--background_button_first);
   border-radius: 9px;
   border: none;
   cursor: pointer;
@@ -59,7 +59,7 @@ body {
 }
 
 .button:hover{
-  background-color: var(--back_button_second);
+  background-color: var(--background_button_second);
   cursor: pointer;
 }
 
@@ -109,6 +109,16 @@ body {
   position: relative;
   left: 43vw;
   width: 20vw;
+}
+
+/* for circle */
+.c1 {
+  margin-left: 10vw;
+  margin-top: 10vw;
+  height: 100px;
+  width: 100px;
+  background-color: black;
+  border-radius: 100px;
 }
 
 p {

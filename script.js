@@ -89,3 +89,9 @@ document.addEventListener("DOMContentLoaded", () => {
   let img = document.getElementById("icon_theme");
   img.src = savedTheme === "dark" ? "img/moon.svg" : "img/sun.svg";
 });
+
+
+// code pour le bouton ZapoomS dans index.html
+function ZapoomS() {
+
+}
