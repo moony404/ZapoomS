@@ -89,6 +89,10 @@ body {
   cursor: pointer;
 }
 
+.button_theme:hover {
+  background-color: var(--back_button_second);
+}
+
 /* for the title h1 on the index.html page */
 
 .title {
