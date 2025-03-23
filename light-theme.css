@@ -3,14 +3,15 @@
     --background: white;
     --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
     --font_color: black;
-    --button_color: rgb(114, 114, 114);
+    --button_color: rgb(119, 118, 114);
+    --button_color_second: rgb(55, 53, 47);
     --red: red;
     --azure: azure;
     --blue: blue;
     --orange: orange;
     --creditstext: rgb(152, 152, 153);
-    --back_button_first: rgba(0, 0, 0, 0.146);
-    --back_button_second: rgba(55, 53, 47, 0.09);
+    --background_button_first: rgba(0, 0, 0, 0.146);
+    --background_button_second: rgba(55, 53, 47, 0.09);
 }
 
 :root[data-theme="dark"] {
@@ -19,6 +20,7 @@
     --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
     --font_color: rgb(71,255,178);
     --button_color: rgb(114, 114, 114);
+    --button_color_second: rgb(55, 53, 47);
     --azure: rgb(20, 20, 20);
     --blue: rgb(4, 24, 155);
     --orange: white;
@@ -50,10 +52,10 @@ body {
   margin-left: 2vw;
   font-size: 12px;
   background-color: var(--back_button_first);
-  color: var(--button_color);
   border-radius: 9px;
   border: none;
   cursor: pointer;
+  font-weight: 600;
 }
 
 .button:hover{
@@ -62,10 +64,13 @@ body {
 }
 
 .ZapoomS {
-  color: black;
+  color: var(--button_color);
+}
+.ZapoomS:hover {
+  color: var(--button_color_second);
 }
 
-/* for button theme */
+/* 🌙🌙🌙🌙 for button theme ☀️☀️☀️☀️ */
 
 #icon_theme {
   transition: opacity 0.2s ease-in-out;
