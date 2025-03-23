@@ -114,12 +114,13 @@ header {
   border-radius: 9px;
 }
 .line {
-  background-color: black;
+  top: -5vw;
+  background-color: rgb(48, 73, 195);
 }
 .line2 {
   left: 10vw;
-  top: -3vw;
-  rotate: 30deg;
+  top: 0vw;
+  rotate: 20deg;
   background-color: orange;
 }
 .line3 {
@@ -132,6 +133,7 @@ header {
   top: -6vw;
   left: 60vw;
   rotate: 95deg;
+  background-color: red;
 }
 .line5 {
   top: -6vw;
@@ -139,7 +141,7 @@ header {
   rotate: 85deg;
   background-color: yellow;
 }
-.line
+/* .line6 */
 
 .products, header {
   display: flex;
