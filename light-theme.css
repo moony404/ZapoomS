@@ -102,6 +102,22 @@ header {
   margin-bottom: 10vw;
 }
 
+.line, .line2, .line3, .line4, .line5{
+  position: relative;
+  left: 15vw;
+  top: -5vw;
+  height: 5px;
+  width: 100px;
+  background-color: blue;
+  background-color;
+  rotate: 50deg;
+  border-radius: 9px;
+}
+
+.line2 {
+  top: 20px;
+}
+
 .products, header {
   display: flex;
   justify-items: flex-end;
