@@ -63,10 +63,10 @@ body {
   cursor: pointer;
 }
 
-.ZapoomS {
+.ZapoomS, .products {
   color: var(--button_color);
 }
-.ZapoomS:hover {
+.ZapoomS:hover, .products:hover {
   color: var(--button_color_second);
 }
 
