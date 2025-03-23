@@ -55,6 +55,7 @@ body {
   color: var(--button_color);
   border-radius: 9px;
   border: none;
+  cursor: pointer;
 }
 
 .button:hover{
@@ -76,8 +77,16 @@ body {
   opacity: 0;
 }
 
-.button_theme{
+.button_theme {
   width: 100px;
+  margin-top: 2vw;
+  margin-left: 2vw;
+  font-size: 12px;
+  background-color: var(--back_button_first);
+  color: var(--button_color);
+  border-radius: 9px;
+  border: none;
+  cursor: pointer;
 }
 
 /* for the title h1 on the index.html page */
