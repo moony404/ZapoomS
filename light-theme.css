@@ -143,6 +143,13 @@ header {
 }
 /* .line6 */
 
+/* Pour les écrans de moins de 768px (tablettes) */
+/* For screens that are less than 768px (tablets) */
+@media (max-width: 480px) {
+  /* testos */
+  .line
+}
+
 .products, header {
   display: flex;
   justify-items: flex-end;
