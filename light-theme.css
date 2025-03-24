@@ -96,11 +96,15 @@ body {
   background-color: var(--back_button_second);
 }
 
+/* pour le HEADERRRRRRRR */
+
 header {
   display: flex;
   justify-content: space-between;
   margin-bottom: 10vw;
 }
+
+/* pour les lignes de couleurs magnifiques */
 
 .line, .line2, .line3, .line4, .line5{
   position: relative;
