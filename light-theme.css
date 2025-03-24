@@ -159,7 +159,14 @@ header {
     left: -0vw;
   }
   .line2 {
+    top: -5vw;
+    rotate: 70deg;
+    left: 18vw;
+  }
+  .line3 {
     top: 10vw;
+    left: 10vw;
+    rotate: 10deg;
   }
 }
 
