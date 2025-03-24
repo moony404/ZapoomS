@@ -109,7 +109,6 @@ header {
   height: 5px;
   width: 100px;
   background-color: blue;
-  background-color;
   rotate: 50deg;
   border-radius: 9px;
 }
@@ -145,9 +144,23 @@ header {
 
 /* Pour les écrans de moins de 768px (tablettes) */
 /* For screens that are less than 768px (tablets) */
-@media (max-width: 480px) {
-  /* testos */
-  .line
+@media (max-width: 430px) {
+  .underline {
+    left: 10vw;
+    height: 60px;
+    width: 60px;
+    /* filter: blur(20px); */
+  }
+  .line, .line2, .line3, .line4, .line5 {
+    width: 10vw;
+  }
+  .line {
+    top: -2vw;
+    left: -0vw;
+  }
+  .line2 {
+    top: 10vw;
+  }
 }
 
 .products, header {
