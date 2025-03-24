@@ -142,8 +142,8 @@ header {
 }
 /* .line6 */
 
-/* Pour les écrans de moins de 768px (tablettes) */
-/* For screens that are less than 768px (tablets) */
+/* Pour les écrans de moins de 430px (phones) */
+/* For screens that are less than 430px (phones) */
 @media (max-width: 430px) {
   .underline {
     left: 10vw;
