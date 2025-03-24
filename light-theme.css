@@ -180,6 +180,37 @@ header {
   }
 }
 
+/* 1601 962 */
+@media (max-width: 1650px) {
+  /* .line, .line2, .line3, .line4, .line5 {
+    width: 10vw;
+  } */
+  .line {
+    left: -0vw;
+  }
+  .line2 {
+    top: -5vw;
+    rotate: 70deg;
+    left: 18vw;
+  }
+  .line3 {
+    top: -4vw;
+    left: 85vw;
+    rotate: -69deg;
+  }
+  .line4 {
+    top: -7vw;
+    left: 67vw;
+    rotate: 100deg;
+  }
+  .line5 {
+    top: -9vw;
+    left: 44vw;
+    rotate: 90deg;
+  }
+}
+
+
 .products, header {
   display: flex;
   justify-items: flex-end;
