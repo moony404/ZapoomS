@@ -1,32 +1,32 @@
 :root {
-    /* light theme */
-    --background: white;
-    --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
-    --font_color: black;
-    --button_color: rgb(119, 118, 114);
-    --button_color_second: rgb(55, 53, 47);
-    --red: red;
-    --azure: azure;
-    --blue: blue;
-    --orange: orange;
-    --creditstext: rgb(152, 152, 153);
-    --background_button_first: rgba(0, 0, 0, 0);
-    --background_button_second: rgba(55, 53, 47, 0.09);
+  /* light theme */
+  --background: white;
+  --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
+  --font_color: black;
+  --button_color: rgb(119, 118, 114);
+  --button_color_second: rgb(55, 53, 47);
+  --red: red;
+  --azure: azure;
+  --blue: blue;
+  --orange: orange;
+  --creditstext: rgb(152, 152, 153);
+  --background_button_first: rgba(0, 0, 0, 0);
+  --background_button_second: rgba(55, 53, 47, 0.09);
 }
 
 :root[data-theme="dark"] {
-    /* dark theme */
-    --background: #1e1e1e;
-    --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
-    --font_color: rgb(71,255,178);
-    --button_color: rgb(114, 114, 114);
-    --button_color_second: rgb(55, 53, 47);
-    --azure: rgb(20, 20, 20);
-    --blue: rgb(4, 24, 155);
-    --orange: white;
-    --creditstext: red;
-    --background_button_first: rgb(225, 225, 225);
-    --background_button_second: rgb(154, 154, 154);
+  /* dark theme */
+  --background: #1e1e1e;
+  --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
+  --font_color: rgb(71,255,178);
+  --button_color: rgb(114, 114, 114);
+  --button_color_second: rgb(55, 53, 47);
+  --azure: rgb(20, 20, 20);
+  --blue: rgb(4, 24, 155);
+  --orange: white;
+  --creditstext: red;
+  --background_button_first: rgb(225, 225, 225);
+  --background_button_second: rgb(154, 154, 154);
 }
 
 * {
