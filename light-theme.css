@@ -152,7 +152,6 @@ header {
     width: 10vw;
   }
   .line {
-    top: -2vw;
     left: -0vw;
   }
   .line2 {
@@ -193,7 +192,7 @@ header {
 
 .underline {
   position: relative;
-  left: 43vw;
+  left: 42vw;
   width: 20vw;
 }
 
