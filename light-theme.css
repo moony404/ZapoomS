@@ -164,9 +164,14 @@ header {
     left: 18vw;
   }
   .line3 {
-    top: 10vw;
-    left: 10vw;
-    rotate: 10deg;
+    top: -4vw;
+    left: 85vw;
+    rotate: -69deg;
+  }
+  .line5 {
+    top: -9vw;
+    left: 44vw;
+    rotate: 90deg;
   }
 }
 
