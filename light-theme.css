@@ -209,6 +209,7 @@ header {
     rotate: 90deg;
   }
 }
+
 /* pour les boutons jcrois */
 .products, header {
   display: flex;
