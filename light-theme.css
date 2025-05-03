@@ -267,17 +267,14 @@ header {
   cursor: pointer;
 }
 
+.green:after{
+  content: "dd";
+}
+.green:hover:after{
+  content: "after";
+  background-image: url(img/macOS svg/maximize_hover.svg);
+}
 
-.item a p.new-label span{
-  position: relative;
-  content: 'NEW'
-}
-.item:hover a p.new-label span{
-  display: none;
-}
-.item:hover a p.new-label:after{
-  content: 'ADD';
-}
 
 
 
