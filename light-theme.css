@@ -262,18 +262,19 @@ header {
 .green {
   background-color: goldenrod;
 }
-.green:hover {
+.green {
   background-color: rgb(194, 141, 5);
   cursor: pointer;
+  background-image: url(img/macOS/maximize_hover.svg);
+  background-size: cover;
 }
 
-.green:after{
-  content: "dd";
+/* .green:after{
+  content: "";
 }
 .green:hover:after{
-  content: "after";
-  background-image: url(img/macOS svg/maximize_hover.svg);
-}
+  content: "";
+} */
 
 
 
