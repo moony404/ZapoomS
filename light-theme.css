@@ -233,23 +233,56 @@ header {
 }
 
 /* for circle */
-.red, .yellown, .green {
-  margin-left: 10vw;
-  margin-top: 10vw;
-  height: 100px;
-  width: 100px;
-  background-color: black;
-  border-radius: 10px;
+.c_box {
+  left: 20vw;
+  position: absolute;
+  cursor: default;
+}
+.red, .yellow, .green {
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.red {
+	background-color: #f73b3b;
+}
+.red:hover {
+  background-color: #fc2828;
+  cursor: pointer;
+}
+.yellow {
+  background-color: yellowgreen;
+}
+.yellow:hover {
+  background-color: rgb(114, 162, 19);
+  cursor: pointer;
+}
+.green {
+  background-color: goldenrod;
+}
+.green:hover {
+  background-color: rgb(194, 141, 5);
+  cursor: pointer;
 }
 
-.red {
-	height: 20px;
-	width: 20px;
-	background-color: #f73b3b;
-	border-radius: 100px;
-	left: 27.7vw;
-	position: absolute;
+
+.item a p.new-label span{
+  position: relative;
+  content: 'NEW'
 }
+.item:hover a p.new-label span{
+  display: none;
+}
+.item:hover a p.new-label:after{
+  content: 'ADD';
+}
+
+
+
+
+
 
 p {
   color: var(--font_color);
