@@ -233,12 +233,12 @@ header {
 }
 
 /* for circle */
-.c_box {
+.c_box { /* div for the macOS buttons */ 
   left: 20vw;
   position: absolute;
   cursor: default;
 }
-.red, .yellow, .green {
+.red, .yellow, .green { /* for the macOS buttons individually */
   height: 25px;
   width: 25px;
   background-color: #bbb;
