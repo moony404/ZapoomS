@@ -97,13 +97,16 @@ function ZapoomS() {
 }
 
 function red() {
-  // red button macOS
+  let red = document.getElementsByClassName("red");
+  gfg.style.color = "green";
 }
 
 function yellow() {
-  // yellow
+  let yellow = document.getElementsByClassName("yellow");
+  yellow.style.color = "green";
 }
 
 function green() {
-  // green
+  let green = document.getElementsByClassName("green");
+  green.style.color = "green";
 }
