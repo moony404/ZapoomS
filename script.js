@@ -97,16 +97,16 @@ function ZapoomS() {
 }
 
 function red() {
-  let red = document.getElementsByClassName("red");
+  let red = document.getElementById("red");
   gfg.style.color = "green";
 }
 
 function yellow() {
-  let yellow = document.getElementsByClassName("yellow");
+  let yellow = document.getElementById("yellow");
   yellow.style.color = "green";
 }
 
 function green() {
-  let green = document.getElementsByClassName("green");
-  green.style.color = "green";
+  let green = document.getElementById("green");
+  green.style.color = "red";
 }
