@@ -215,6 +215,9 @@ header {
   display: flex;
   justify-items: flex-end;
 }
+.products {
+  margin-right: 1vw;
+}
 
 /* for the title h1 on the index.html page */
 
