@@ -95,3 +95,15 @@ document.addEventListener("DOMContentLoaded", () => {
 function ZapoomS() {
 
 }
+
+function red() {
+  // red button macOS
+}
+
+function yellow() {
+  // yellow
+}
+
+function green() {
+  // green
+}

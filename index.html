@@ -14,7 +14,7 @@
         <!-- <img class="icon" src="img/help-circle.svg"> -->
         <!-- <button id="button_parameters"><img class="icon_theme" src="img/sun.svg"></button> -->
         <header>
-            <button class="button"><p class="ZapoomS">* ZapoomS</p></button>
+            <button class="button" onclick="ZapoomS()"><p class="ZapoomS">* ZapoomS</p></button>
             <button onclick="toggleTheme()" id="button_theme" class="button_theme"><img id="icon_theme" class="icon_theme" src="img/sun.svg"></button>
             <button onclick="location.href='next.html';" class="button products"><p class="products">Produits</p></button>
         </header>
@@ -29,10 +29,9 @@
         </div>
         <!-- <p>pas dans le header</p> -->
         <div class="c_box">
-            <div class="red"></div>
-            <div class="yellow"></div>
-            <div class="green"></div>
-            <button onclick="myFunction()"></button>
+            <button class="red" onclick="red()"></button>
+            <button class="yellow" onclick="yellow()"></button>
+            <button class="green" onclick="green()"></button>
             <p>ZapoomS</p>
             <span class="labl"></span>
         </div>
