@@ -108,5 +108,5 @@ function yellow() {
 
 function green() {
   let green = document.getElementById("green");
-  green.style.color = "red";
+  green.style.backgroundColor = "green";
 }
