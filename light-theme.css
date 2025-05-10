@@ -286,6 +286,7 @@ header {
   position: absolute;
   top: 0vw;
 	left: 11vw;
+  cursor: text;
 }
 
 @media (max-width: 900px) {
