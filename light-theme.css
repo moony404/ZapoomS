@@ -210,7 +210,7 @@ header {
   }
 }
 
-/* pour les boutons jcrois */
+/* pour les boutons en haut à gauche et en haut à droite*/
 .products, header {
   display: flex;
   justify-items: flex-end;
