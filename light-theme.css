@@ -282,6 +282,20 @@ header {
 
 
 
+.ZapoomS_macos {
+	left: 11vw;
+	position: absolute;
+	top: 1vw;
+}
+
+@media (max-width: 430px) {
+  /* qslkdjsqlj */
+  .ZapoomS_macos {
+    top: 1vw;
+    left: 7vw;
+  }
+}
+
 
 
 
