@@ -289,12 +289,18 @@ header {
 }
 
 @media (max-width: 430px) {
-  /* qslkdjsqlj */
   .ZapoomS_macos {
-    top: 1vw;
-    left: 7vw;
+    top: 2vw;
+    left: 25vw;
   }
 }
+@media (max-width: 430px) {
+  .ZapoomS_macos {
+    top: 2vw;
+    left: 25vw;
+  }
+}
+
 
 
 
