@@ -283,20 +283,20 @@ header {
 
 
 .ZapoomS_macos {
+  position: absolute;
+  top: 0vw;
 	left: 11vw;
-	position: absolute;
-	top: 1vw;
 }
 
-@media (max-width: 430px) {
+@media (max-width: 900px) {
   .ZapoomS_macos {
-    top: 2vw;
+    top: 0vw;
     left: 25vw;
   }
 }
-@media (max-width: 430px) {
+@media (max-width: 720px) {
   .ZapoomS_macos {
-    top: 2vw;
+    top: 0vw;
     left: 25vw;
   }
 }
