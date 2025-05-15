@@ -216,7 +216,7 @@ header {
   justify-items: flex-end;
 }
 .products {
-  margin-right: 1vw;
+  padding-right: 2vw;
 }
 
 /* for the title h1 on the index.html page */
