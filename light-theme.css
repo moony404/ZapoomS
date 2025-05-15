@@ -90,6 +90,7 @@ body {
   border: none;
   cursor: pointer;
   transition: background-color 0.1s ease-in-out; /* Ajout de la transition */
+	filter: blur(0.5px);
 }
 
 .button_theme:hover {
@@ -215,8 +216,8 @@ header {
   display: flex;
   justify-items: flex-end;
 }
-.products {
-  padding-right: 2vw;
+.button.products {
+  margin-right: 2.2vw;
 }
 
 /* for the title h1 on the index.html page */
@@ -233,6 +234,7 @@ header {
   position: relative;
   left: 42vw;
   width: 20vw;
+  filter: blur(0.5px);
 }
 
 /* for circle */
