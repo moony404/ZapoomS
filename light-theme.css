@@ -354,11 +354,11 @@ header {
 .separator {
   position: absolute;
   left: 0vw;
-  height: 0.4vw;
+  height: 0.2vw;
   width: 54vw;
   padding-left: 2vw;
   padding-right: 10vw;
-  padding-top: 1vw;
+  margin-top: 0.3vw;
   background-color: var(--background_window_separator);
 }
 
