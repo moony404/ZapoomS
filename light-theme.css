@@ -265,26 +265,30 @@ header {
 }
 .red {
 	background-color: #f73b3b;
+  background-image: url(img/macOS/close_hover.svg);
+  background-size: cover;
 }
 .red:hover {
   background-color: #fc2828;
   cursor: pointer;
 }
 .yellow {
-  background-color: yellowgreen;
+  background-color: #fac536;
+  background-image: url(img/macOS/minimize_hover.svg);
+  background-size: cover;
 }
 .yellow:hover {
   background-color: rgb(114, 162, 19);
   cursor: pointer;
 }
 .green {
-  background-color: goldenrod;
-}
-.green {
   background-color: rgb(194, 141, 5);
-  cursor: pointer;
   background-image: url(img/macOS/maximize_hover.svg);
   background-size: cover;
+}
+.green:hover {
+  background-color: red;
+  cursor: pointer;
 }
 
 /* ZapoomS window title */
@@ -294,7 +298,6 @@ header {
 	left: 13vw;
   cursor: text;
 }
-
 @media (max-width: 920px) {
   .ZapoomS_macos {
     top: 1vw;
@@ -347,13 +350,17 @@ header {
 
 
 
-
 p {
   color: var(--font_color);
 }
 
 /* to remove the underline in link */
-
 .anone {
   text-decoration: none;
 }
+
+/*   ___  _  _  __  
+    | __|| \| ||  \ 
+    | _| | \\ || o )
+    |___||_|\_||__/
+*/
