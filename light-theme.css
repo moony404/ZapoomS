@@ -2,6 +2,7 @@
   /* light theme */
   --background: white;
   --background_window: #eee;
+  --background_window_separator: #d1d1d1;
   --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
   --font_color: black;
   --button_color: rgb(119, 118, 114);
@@ -19,6 +20,7 @@
   /* dark theme */
   --background: #1e1e1e;
   --background_window: #3b3b3b;
+  --background_window_separator: #525252;
   --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
   --font_color: rgb(71,255,178);
   --button_color: rgb(114, 114, 114);
@@ -240,7 +242,6 @@ header {
   position: relative;
   left: 42vw;
   width: 20vw;
-  filter: blur(0.5px);
 }
 
 /* for circle */
@@ -358,7 +359,7 @@ header {
   padding-left: 2vw;
   padding-right: 10vw;
   padding-top: 1vw;
-  background-color: #525252;
+  background-color: var(--background_window_separator);
 }
 
 
