@@ -78,6 +78,11 @@ body {
   }
 }
 
+/* for the iconnnnnnn (icon) */
+.icon {
+  height: 1.5vw;
+}
+
 /* 🌙🌙🌙🌙 for button theme ☀️☀️☀️☀️ */
 #icon_theme {
   transition: opacity 0.2s ease-in-out;
@@ -255,6 +260,7 @@ header {
   padding-left: 2vw;
   padding-right: 10vw;
   padding-top: 1vw;
+  margin-top: 4vw;
 }
 .red, .yellow, .green { /* for the macOS buttons individually */
   height: 25px;
