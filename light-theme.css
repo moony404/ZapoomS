@@ -254,6 +254,7 @@ header {
   border-radius: 9px;
   padding-left: 2vw;
   padding-right: 10vw;
+  padding-top: 1vw;
 }
 .red, .yellow, .green { /* for the macOS buttons individually */
   height: 25px;
