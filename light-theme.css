@@ -349,6 +349,22 @@ header {
 }
 
 
+/* separator after the title bar of the window */
+.separator {
+  position: absolute;
+  left: 0vw;
+  height: 0.4vw;
+  width: 54vw;
+  padding-left: 2vw;
+  padding-right: 10vw;
+  padding-top: 1vw;
+  background-color: #525252;
+}
+
+
+
+
+
 
 
 p {
