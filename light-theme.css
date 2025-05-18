@@ -301,6 +301,18 @@ header {
     left: 12vw;
   }
 }
+@media (max-width: 860px) {
+  .ZapoomS_macos {
+    top: 1vw;
+    left: 15vw;
+  }
+}
+@media (max-width: 740px) {
+  .ZapoomS_macos {
+    top: 1vw;
+    left: 16vw;
+  }
+}
 @media (max-width: 720px) {
   .ZapoomS_macos {
     top: 0vw;
