@@ -36,6 +36,17 @@
 //   }, 200); // Durée de l'animation
 // };
 
+console.log("5A 61 70 6F 6F 6D 53");
+const str = `
+ZZZZZZZZ
+    ZZ
+   ZZ
+  ZZ
+ZZZZZZZZ
+`;
+console.log(str)
+
+
 function toggleTheme() {
   let img = document.getElementById("icon_theme");
   let currentTheme = document.documentElement.getAttribute("data-theme");
