@@ -68,7 +68,6 @@ body {
   }
 }
 
-
 .ZapoomS, .products {
   color: var(--button_color);
 }
@@ -77,7 +76,6 @@ body {
 }
 
 /* 🌙🌙🌙🌙 for button theme ☀️☀️☀️☀️ */
-
 #icon_theme {
   transition: opacity 0.2s ease-in-out;
 }
