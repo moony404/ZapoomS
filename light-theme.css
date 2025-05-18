@@ -62,6 +62,12 @@ body {
   background-color: var(--background_button_second);
   cursor: pointer;
 }
+@media (max-width:380px) {
+  .button_theme, .button_theme {
+    font-size: 11vw;
+  }
+}
+
 
 .ZapoomS, .products {
   color: var(--button_color);
@@ -285,8 +291,8 @@ header {
 
 @media (max-width: 900px) {
   .ZapoomS_macos {
-    top: 0vw;
-    left: 25vw;
+    top: 1vw;
+    left: 12vw;
   }
 }
 @media (max-width: 720px) {
