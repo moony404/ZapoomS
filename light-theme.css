@@ -63,8 +63,8 @@ body {
   cursor: pointer;
 }
 @media (max-width:380px) {
-  .button_theme, .button_theme {
-    font-size: 11vw;
+  .products, .ZapoomS {
+    font-size: 6vw;
   }
 }
 
