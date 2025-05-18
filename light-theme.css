@@ -291,14 +291,14 @@ header {
 .ZapoomS_macos {
   position: absolute;
   top: 0.7vw;
-	left: 11vw;
+	left: 13vw;
   cursor: text;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 920px) {
   .ZapoomS_macos {
     top: 1vw;
-    left: 12vw;
+    left: 15vw;
   }
 }
 @media (max-width: 860px) {
@@ -315,11 +315,34 @@ header {
 }
 @media (max-width: 720px) {
   .ZapoomS_macos {
-    top: 0vw;
+    top: 1vw;
+    left: 17vw;
+  }
+}
+@media (max-width: 640px) {
+  .ZapoomS_macos {
+    top: 1vw;
+    left: 18vw;
+  }
+}
+@media (max-width: 580px) {
+  .ZapoomS_macos {
+    top: 1.2vw;
+    left: 20vw;
+  }
+}
+@media (max-width: 544px) {
+  .ZapoomS_macos {
+    top: 1.5vw;
+    left: 21vw;
+  }
+}
+@media (max-width: 500px) {
+  .ZapoomS_macos {
+    top: 1.5vw;
     left: 25vw;
   }
 }
-
 
 
 
