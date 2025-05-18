@@ -1,6 +1,7 @@
 :root {
   /* light theme */
   --background: white;
+  --background_window: #eee;
   --buttonbackgroundhover: rgba(255, 255, 255, 0.329);
   --font_color: black;
   --button_color: rgb(119, 118, 114);
@@ -17,6 +18,7 @@
 :root[data-theme="dark"] {
   /* dark theme */
   --background: #1e1e1e;
+  --background_window: #3b3b3b;
   --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
   --font_color: rgb(71,255,178);
   --button_color: rgb(114, 114, 114);
@@ -246,6 +248,12 @@ header {
   left: 20vw;
   position: absolute;
   cursor: default;
+  background-color: var(--background_window);
+  height: 36vw;
+  width: 54vw;
+  border-radius: 9px;
+  padding-left: 2vw;
+  padding-right: 10vw;
 }
 .red, .yellow, .green { /* for the macOS buttons individually */
   height: 25px;
