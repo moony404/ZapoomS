@@ -39,7 +39,7 @@
   font-family: "Inter", serif;
   font-optical-sizing: auto;
   font-weight: 700;
-  font-size: 25px;
+  font-size: 32pt;
   font-style: normal;
   line-height: 1.5;
 }
@@ -68,6 +68,7 @@ body {
 
 .ZapoomS, .products {
   color: var(--button_color);
+  
 }
 .ZapoomS:hover, .products:hover {
   color: var(--button_color_second);
@@ -368,6 +369,22 @@ header {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* From Uiverse.io by yasinfmd */ 
 .terminalWrapper {
   display: flex;
@@ -375,8 +392,10 @@ header {
   background: #141410;
   box-sizing: border-box;
   border-radius: 4px;
-  position: relative;
+  position: absolute;
+  left: 36%;
   width: 300px;
+  scale: 200%;
 }
 
 .terminalWindow {
@@ -406,7 +425,7 @@ header {
 }
 
 .terminalWindow p {
-  
+  text-align: center;
   /* margin-right: auto; */
   font:
     normal 500 12px "-apple-system",
@@ -497,6 +516,19 @@ header {
   border-radius: 20px;
   background: #d4d0d0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
