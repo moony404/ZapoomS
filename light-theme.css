@@ -535,12 +535,9 @@ header {
 
 .textmacos {
   color: black;
+  font: normal 600 12px/16px "-apple-system", system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  text-decoration: none;
 }
-
-/* a {
-  color: var(--font_color);
-  text-decoration: underline;
-} */
 
 
 
