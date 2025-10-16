@@ -399,6 +399,7 @@ header {
 }
 
 .terminalWindow {
+  cursor: move;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -440,14 +441,29 @@ header {
 
 .close {
   background: #f5222d;
+  cursor: pointer;
+}
+.close:hover {
+  background-color: #fc2828;
+  cursor: pointer;
 }
 
 .resize {
   background: #ffc53d;
+  cursor: pointer;
+}
+.resize:hover {
+  background-color: rgb(114, 162, 19);
+  cursor: pointer;
 }
 
 .minimize {
   background: #52c41a;
+  cursor: pointer;
+}
+.minimize:hover {
+  background-color: green;
+  cursor: pointer;
 }
 
 .terminalBody {
@@ -515,6 +531,10 @@ header {
 ::-webkit-scrollbar-thumb {
   border-radius: 20px;
   background: #d4d0d0;
+}
+
+.textmacos {
+  color: black;
 }
 
 
