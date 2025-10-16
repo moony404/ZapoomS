@@ -537,6 +537,11 @@ header {
   color: black;
 }
 
+/* a {
+  color: var(--font_color);
+  text-decoration: underline;
+} */
+
 
 
 
