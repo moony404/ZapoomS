@@ -14,13 +14,14 @@
   --creditstext: rgb(152, 152, 153);
   --background_button_first: rgba(0, 0, 0, 0);
   --background_button_second: rgba(55, 53, 47, 0.09);
-  --background-color-macosWindow: rgb(39, 37, 37);
-  --color-macosWindowTitle: rgba(40, 250, 12, 0.358);
+  --background-color-macosWindow: rgb(114, 114, 114);
+  --color-macosWindowTitle: rgb(80, 242, 59);
+  --background-color-terminalWindow : rgb(222, 203, 203);
 }
 
 :root[data-theme="dark"] {
   /* dark theme */
-  --background: #370639;
+  --background: rgb(11, 11, 11);
   --background_window: #3b3b3b;
   --background_window_separator: #525252;
   --buttonbackgroundhover: rgba(187, 221, 255, 0.256);
@@ -31,10 +32,11 @@
   --blue: rgb(4, 24, 155);
   --orange: white;
   --creditstext: red;
-  --background_button_first: rgb(225, 225, 225);
-  --background_button_second: rgb(154, 154, 154);
-  --background-color-macoswindow: rgba(199, 51, 232, 0.358);
+  --background_button_first: rgba(225, 225, 225, 0);
+  --background_button_second: rgba(185, 185, 185, 0.55);
+  --background-color-macosWindow: rgb(53, 53, 53);
   --color-macosWindowTitle: rgba(199, 51, 232, 0.358);
+  --background-color-terminalWindow : rgb(122, 122, 122);
 }
 
 * {
@@ -62,7 +64,6 @@ body {
   background-color: var(--background_button_first);
   border-radius: 9px;
   border: none;
-  cursor: pointer;
   font-weight: 600;
 }
 .button:hover{
@@ -105,13 +106,12 @@ body {
   color: var(--button_color);
   border-radius: 9px;
   border: none;
-  cursor: pointer;
   transition: background-color 0.1s ease-in-out; /* Ajout de la transition */
 	filter: blur(0.5px);
 }
-
 .button_theme:hover {
   background-color: var(--back_button_second);
+  cursor: pointer;
 }
 
 /* pour le HEADERRRRRRRR */
@@ -152,7 +152,6 @@ header {
 .c_box { /* div for the macOS buttons */ 
   left: 20vw;
   position: absolute;
-  cursor: default;
   background-color: var(--background_window);
   height: 36vw;
   width: 54vw;
@@ -289,7 +288,7 @@ header {
 .terminalWrapper {
   display: flex;
   flex-direction: column;
-  background: var(--background-color-macoswindow);
+  background: var(--background-color-macosWindow);
   box-sizing: border-box;
   border-radius: 4px;
   position: absolute;
@@ -299,7 +298,7 @@ header {
 }
 
 .terminalWindow {
-  cursor: move;
+  cursor: all-scroll;
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -369,7 +368,7 @@ header {
 .terminalBody {
   display: flex;
   width: 100%;
-  background: #d3d3d3;
+  background: var(--background-color-terminalWindow);
   box-sizing: border-box;
   color: #2d2d2d;
 }
