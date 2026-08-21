@@ -38,11 +38,11 @@
 
 console.log("5A 61 70 6F 6F 6D 53");
 const str = `
-ZZZZZZZZ
-    ZZ
-   ZZ
-  ZZ
-ZZZZZZZZ
+ZZZZZZZ       AA
+    ZZ       AA AA
+   ZZ       AA   AA
+  ZZ       AAAAAAAAA
+ZZZZZZZZ  AA       AA
 `;
 console.log(str)
 
