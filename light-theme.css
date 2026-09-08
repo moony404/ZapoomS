@@ -298,13 +298,18 @@ header {
 }
 
 .terminalWindow {
-  cursor: all-scroll;
+  cursor: grab;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   height: 30px;
   margin-left: 10px;
   border-bottom: 1px solid #141410;
+}
+
+.terminalWindow.dragging,
+.terminalWindow.dragging * {
+  cursor: grabbing;
 }
 
 .terminalWindow i {
